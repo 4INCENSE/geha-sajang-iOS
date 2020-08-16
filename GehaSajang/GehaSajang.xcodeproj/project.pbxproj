@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */; };
+		6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */; };
 		6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517724DBBF0700DB1615 /* AppDelegate.swift */; };
 		6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517924DBBF0700DB1615 /* SceneDelegate.swift */; };
-		6A83517C24DBBF0700DB1615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* ViewController.swift */; };
+		6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* LoginViewController.swift */; };
 		6A83517F24DBBF0700DB1615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A83517D24DBBF0700DB1615 /* Main.storyboard */; };
 		6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */; };
 		6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518324DBBF0800DB1615 /* Assets.xcassets */; };
 		6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */; };
 		6A83519224DBBF0800DB1615 /* GehaSajangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */; };
+		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GehaSaJangLoginBackgroundVideo.mp4; sourceTree = "<group>"; };
 		6A83517424DBBF0700DB1615 /* GehaSajang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GehaSajang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83517724DBBF0700DB1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A83517924DBBF0700DB1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A83517B24DBBF0700DB1615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A83517B24DBBF0700DB1615 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A83517E24DBBF0700DB1615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A83518124DBBF0700DB1615 /* GehaSajang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GehaSajang.xcdatamodel; sourceTree = "<group>"; };
 		6A83518324DBBF0800DB1615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		6A83518D24DBBF0800DB1615 /* GehaSajangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GehaSajangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GehaSajangTests.swift; sourceTree = "<group>"; };
 		6A83519324DBBF0800DB1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A68DA4024E975200075CA73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6A83516B24DBBF0700DB1615 = {
 			isa = PBXGroup;
 			children = (
 				6A83517624DBBF0700DB1615 /* GehaSajang */,
+				6AD0CF4E24E942B30061A2B2 /* AppComposition */,
 				6A83519024DBBF0800DB1615 /* GehaSajangTests */,
 				6A83517524DBBF0700DB1615 /* Products */,
 			);
@@ -81,14 +96,9 @@
 		6A83517624DBBF0700DB1615 /* GehaSajang */ = {
 			isa = PBXGroup;
 			children = (
-				6A83517724DBBF0700DB1615 /* AppDelegate.swift */,
-				6A83517924DBBF0700DB1615 /* SceneDelegate.swift */,
-				6A83517B24DBBF0700DB1615 /* ViewController.swift */,
-				6A83517D24DBBF0700DB1615 /* Main.storyboard */,
-				6A83518324DBBF0800DB1615 /* Assets.xcassets */,
-				6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */,
-				6A83518824DBBF0800DB1615 /* Info.plist */,
-				6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */,
+				6A68DA4024E975200075CA73 /* Extensions */,
+				6AD0CF5124E943690061A2B2 /* Resource */,
+				6AD0CF4A24E9426E0061A2B2 /* Login */,
 			);
 			path = GehaSajang;
 			sourceTree = "<group>";
@@ -100,6 +110,37 @@
 				6A83519324DBBF0800DB1615 /* Info.plist */,
 			);
 			path = GehaSajangTests;
+			sourceTree = "<group>";
+		};
+		6AD0CF4A24E9426E0061A2B2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A83517B24DBBF0700DB1615 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6AD0CF4E24E942B30061A2B2 /* AppComposition */ = {
+			isa = PBXGroup;
+			children = (
+				6A83517724DBBF0700DB1615 /* AppDelegate.swift */,
+				6A83517924DBBF0700DB1615 /* SceneDelegate.swift */,
+				6A83517D24DBBF0700DB1615 /* Main.storyboard */,
+				6A83518324DBBF0800DB1615 /* Assets.xcassets */,
+				6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */,
+				6A83518824DBBF0800DB1615 /* Info.plist */,
+				6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */,
+			);
+			path = AppComposition;
+			sourceTree = "<group>";
+		};
+		6AD0CF5124E943690061A2B2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0CF5224E943780061A2B2 /* Resource.swift */,
+				6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +226,7 @@
 			files = (
 				6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */,
 				6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */,
+				6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */,
 				6A83517F24DBBF0700DB1615 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
-				6A83517C24DBBF0700DB1615 /* ViewController.swift in Sources */,
+				6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */,
 				6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */,
+				6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */,
 				6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93A6S4WHC4;
-				INFOPLIST_FILE = GehaSajang/Info.plist;
+				INFOPLIST_FILE = AppComposition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93A6S4WHC4;
-				INFOPLIST_FILE = GehaSajang/Info.plist;
+				INFOPLIST_FILE = AppComposition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
