@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */; };
 		6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */; };
+		6A68DA5324E994320075CA73 /* S-CoreDream-5Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */; };
+		6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */; };
+		6A68DA5524E994320075CA73 /* S-CoreDream-6Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */; };
+		6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */; };
+		6A68DA5724E994320075CA73 /* S-CoreDream-7ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */; };
+		6A68DA5824E994320075CA73 /* S-CoreDream-2ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */; };
+		6A68DA5924E994320075CA73 /* S-CoreDream-8Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */; };
+		6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */; };
+		6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */; };
 		6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517724DBBF0700DB1615 /* AppDelegate.swift */; };
 		6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517924DBBF0700DB1615 /* SceneDelegate.swift */; };
 		6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* LoginViewController.swift */; };
@@ -33,6 +42,15 @@
 /* Begin PBXFileReference section */
 		6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GehaSaJangLoginBackgroundVideo.mp4; sourceTree = "<group>"; };
+		6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-5Medium.otf"; sourceTree = "<group>"; };
+		6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-1Thin.otf"; sourceTree = "<group>"; };
+		6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-6Bold.otf"; sourceTree = "<group>"; };
+		6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-4Regular.otf"; sourceTree = "<group>"; };
+		6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-7ExtraBold.otf"; sourceTree = "<group>"; };
+		6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-2ExtraLight.otf"; sourceTree = "<group>"; };
+		6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-8Heavy.otf"; sourceTree = "<group>"; };
+		6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-3Light.otf"; sourceTree = "<group>"; };
+		6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-9Black.otf"; sourceTree = "<group>"; };
 		6A83517424DBBF0700DB1615 /* GehaSajang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GehaSajang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83517724DBBF0700DB1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A83517924DBBF0700DB1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +90,22 @@
 				6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A68DA4924E994250075CA73 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */,
+				6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */,
+				6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */,
+				6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */,
+				6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */,
+				6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */,
+				6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */,
+				6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */,
+				6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		6A83516B24DBBF0700DB1615 = {
@@ -137,6 +171,7 @@
 		6AD0CF5124E943690061A2B2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				6A68DA4924E994250075CA73 /* Font */,
 				6AD0CF5224E943780061A2B2 /* Resource.swift */,
 				6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */,
 			);
@@ -224,8 +259,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A68DA5524E994320075CA73 /* S-CoreDream-6Bold.otf in Resources */,
 				6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */,
+				6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */,
+				6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */,
+				6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */,
+				6A68DA5724E994320075CA73 /* S-CoreDream-7ExtraBold.otf in Resources */,
+				6A68DA5924E994320075CA73 /* S-CoreDream-8Heavy.otf in Resources */,
 				6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */,
+				6A68DA5324E994320075CA73 /* S-CoreDream-5Medium.otf in Resources */,
+				6A68DA5824E994320075CA73 /* S-CoreDream-2ExtraLight.otf in Resources */,
+				6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */,
 				6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */,
 				6A83517F24DBBF0700DB1615 /* Main.storyboard in Resources */,
 			);
