@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="GehaSajang" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UqP-dP-CIS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihh-2t-OAI">
+                                <rect key="frame" x="131" y="688" width="152" height="58"/>
+                                <color key="backgroundColor" name="MainBlue"/>
+                                <color key="tintColor" name="MainBlue"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="지금 바로 시작하기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게스트 하우스 맞춤형 예약 관리 시스템으로" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wa1-bW-Fmu">
+                                <rect key="frame" x="41.5" y="608" width="331" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gehaSaJangLogo_white_big" translatesAutoresizingMaskIntoConstraints="NO" id="ckq-wV-HRf">
+                                <rect key="frame" x="124" y="186" width="166" height="165.5"/>
+                                <color key="tintColor" name="MainBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ckq-wV-HRf" secondAttribute="height" multiplier="1:1" id="Uey-7u-NJA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게스트의 예약을 보다 손쉽게 관리하세요" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiG-Xd-1Vj">
+                                <rect key="frame" x="74" y="631.5" width="266" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="UqP-dP-CIS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2TE-ZD-SUv"/>
+                            <constraint firstItem="Ihh-2t-OAI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2nM-bJ-yo3"/>
+                            <constraint firstItem="Wa1-bW-Fmu" firstAttribute="width" secondItem="UqP-dP-CIS" secondAttribute="width" multiplier="0.8" id="38I-mY-P7l"/>
+                            <constraint firstItem="Wa1-bW-Fmu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BNY-Yz-Ghl"/>
+                            <constraint firstAttribute="baseline" secondItem="UqP-dP-CIS" secondAttribute="bottom" id="FAo-Hn-rSW"/>
+                            <constraint firstItem="ckq-wV-HRf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IQc-vQ-GCA"/>
+                            <constraint firstItem="oiG-Xd-1Vj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JeQ-TW-VRx"/>
+                            <constraint firstItem="oiG-Xd-1Vj" firstAttribute="top" secondItem="Wa1-bW-Fmu" secondAttribute="bottom" constant="3" id="Njv-KC-VYM"/>
+                            <constraint firstItem="UqP-dP-CIS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="R8Y-KB-rbh"/>
+                            <constraint firstItem="ckq-wV-HRf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.6" id="Vlf-zC-tkg"/>
+                            <constraint firstItem="ckq-wV-HRf" firstAttribute="width" secondItem="UqP-dP-CIS" secondAttribute="width" multiplier="0.4" id="Xhn-is-fAa"/>
+                            <constraint firstItem="Ihh-2t-OAI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.6" id="asH-7g-q6b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UqP-dP-CIS" secondAttribute="trailing" id="cEj-ja-wtA"/>
+                            <constraint firstItem="Wa1-bW-Fmu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.38" id="jtH-kX-V0u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="UqP-dP-CIS" id="iWd-mp-TFs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gehaSaJangLogo_white_big" width="142" height="110.5"/>
+        <namedColor name="MainBlue">
+            <color red="0.0" green="0.27843137254901962" blue="0.83137254901960789" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
