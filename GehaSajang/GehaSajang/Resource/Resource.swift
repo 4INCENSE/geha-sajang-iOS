@@ -27,3 +27,13 @@ enum ResourceType {
 enum ColorName {
     static let mainBlue = "MainBlue"
 }
+
+enum UserType {
+    case host
+    case staff
+}
+
+enum Identifier {
+    static let userTypeLogin = "UserTypeLogin"
+}
+
