@@ -20,6 +20,9 @@
 		6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */; };
 		6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19BE24F82A69007C582D /* TermsViewController.swift */; };
 		6A6E19C124F82A7C007C582D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C024F82A7C007C582D /* SignUpViewController.swift */; };
+		6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C424F8F16E007C582D /* EmailTextField.swift */; };
+		6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */; };
+		6A6E19C924F918C0007C582D /* ConditionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C824F918C0007C582D /* ConditionCheck.swift */; };
 		6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517724DBBF0700DB1615 /* AppDelegate.swift */; };
 		6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517924DBBF0700DB1615 /* SceneDelegate.swift */; };
 		6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* LoginViewController.swift */; };
@@ -55,6 +58,9 @@
 		6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-9Black.otf"; sourceTree = "<group>"; };
 		6A6E19BE24F82A69007C582D /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		6A6E19C024F82A7C007C582D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A6E19C424F8F16E007C582D /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConditionLabel.swift; sourceTree = "<group>"; };
+		6A6E19C824F918C0007C582D /* ConditionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionCheck.swift; sourceTree = "<group>"; };
 		6A83517424DBBF0700DB1615 /* GehaSajang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GehaSajang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83517724DBBF0700DB1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A83517924DBBF0700DB1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 			children = (
 				6A6E19BE24F82A69007C582D /* TermsViewController.swift */,
 				6A6E19C024F82A7C007C582D /* SignUpViewController.swift */,
+				6A6E19C424F8F16E007C582D /* EmailTextField.swift */,
+				6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */,
+				6A6E19C824F918C0007C582D /* ConditionCheck.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -303,11 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6E19C924F918C0007C582D /* ConditionCheck.swift in Sources */,
 				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
+				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
 				6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */,
 				6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */,
 				6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */,
+				6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */,
 				6A6E19C124F82A7C007C582D /* SignUpViewController.swift in Sources */,
 				6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */,
 				6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */,
