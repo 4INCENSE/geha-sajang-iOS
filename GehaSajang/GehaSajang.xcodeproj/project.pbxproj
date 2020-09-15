@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */; };
-		6A2435EF2508D42C003A3269 /* SignInPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */; };
 		6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */; };
 		6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */; };
 		6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6225021C49005F2DBA /* SignUpViewController.swift */; };
@@ -46,13 +45,7 @@
 		6A83519224DBBF0800DB1615 /* GehaSajangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */; };
 		6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D519250380060069D900 /* UserInfoKey.swift */; };
 		6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */; };
-		6AB0EC23250F561A002F92E4 /* SignInInputUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */; };
-		6AB0EC25250F5782002F92E4 /* SignInEmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */; };
-		6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */; };
 		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
-		6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051772510778800E08BC2 /* SignInEmailTextField.swift */; };
-		6AD0517B251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */; };
-		6AD0517D251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */; };
 		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
 		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
@@ -72,7 +65,6 @@
 		271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.debug.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.release.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.release.xcconfig"; sourceTree = "<group>"; };
 		6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConditionLabel.swift; sourceTree = "<group>"; };
-		6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordTextField.swift; sourceTree = "<group>"; };
 		6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordTextField.swift; sourceTree = "<group>"; };
 		6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextField.swift; sourceTree = "<group>"; };
 		6A675D6225021C49005F2DBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -114,13 +106,7 @@
 		6A83519324DBBF0800DB1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A83D519250380060069D900 /* UserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoKey.swift; sourceTree = "<group>"; };
 		6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactoryByState.swift; sourceTree = "<group>"; };
-		6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInputUserData.swift; sourceTree = "<group>"; };
-		6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailConditionLabel.swift; sourceTree = "<group>"; };
-		6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordConditionLabel.swift; sourceTree = "<group>"; };
 		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
-		6AD051772510778800E08BC2 /* SignInEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextField.swift; sourceTree = "<group>"; };
-		6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextFieldDelegate.swift; sourceTree = "<group>"; };
-		6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,10 +274,6 @@
 			isa = PBXGroup;
 			children = (
 				6AB0EC1B250F556E002F92E4 /* Controller */,
-				6AB0EC1C250F5576002F92E4 /* Manage */,
-				6AB0EC1D250F5580002F92E4 /* ConditionLabel */,
-				6AB0EC1E250F5587002F92E4 /* TextField */,
-				6AD05179251078A600E08BC2 /* Delegate */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -302,41 +284,6 @@
 				6A675D6625021D1B005F2DBA /* SignInViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		6AB0EC1C250F5576002F92E4 /* Manage */ = {
-			isa = PBXGroup;
-			children = (
-				6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */,
-			);
-			path = Manage;
-			sourceTree = "<group>";
-		};
-		6AB0EC1D250F5580002F92E4 /* ConditionLabel */ = {
-			isa = PBXGroup;
-			children = (
-				6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */,
-				6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */,
-			);
-			path = ConditionLabel;
-			sourceTree = "<group>";
-		};
-		6AB0EC1E250F5587002F92E4 /* TextField */ = {
-			isa = PBXGroup;
-			children = (
-				6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */,
-				6AD051772510778800E08BC2 /* SignInEmailTextField.swift */,
-			);
-			path = TextField;
-			sourceTree = "<group>";
-		};
-		6AD05179251078A600E08BC2 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */,
-				6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */,
-			);
-			path = Delegate;
 			sourceTree = "<group>";
 		};
 		6AD0CF4A24E9426E0061A2B2 /* Login */ = {
@@ -535,21 +482,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */,
-				6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */,
-				6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */,
 				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
 				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
 				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
-				6AD0517D251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift in Sources */,
 				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
-				6AB0EC25250F5782002F92E4 /* SignInEmailConditionLabel.swift in Sources */,
 				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
 				6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */,
-				6AD0517B251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift in Sources */,
 				6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */,
-				6AB0EC23250F561A002F92E4 /* SignInInputUserData.swift in Sources */,
 				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
-				6A2435EF2508D42C003A3269 /* SignInPasswordTextField.swift in Sources */,
 				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
 				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
 				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
