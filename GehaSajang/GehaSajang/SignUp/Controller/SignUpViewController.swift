@@ -77,15 +77,14 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUpButtonTapped(_ sender: Any) {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let registerGuesthouseVC = storyBoard.instantiateViewController(withIdentifier: "RegisterGuesthouseViewController")
-        let firstVC = storyBoard.instantiateViewController(withIdentifier: "LoginViewController")
+        let registerGuesthouseVC = UIStoryboard.registerGuesthouseViewController
+        let loginVC = UIStoryboard.loginViewController
         
         let okAction = UIAlertAction(title: "계속하기", style: .default) { (action) in
             self.navigationController?.pushViewController(registerGuesthouseVC, animated: true)
         }
         let cancel = UIAlertAction(title: "다음에 하기", style: .cancel) {(action) in
-            self.navigationController?.pushViewController(firstVC, animated: true)
+            self.navigationController?.pushViewController(loginVC, animated: true)
         }
         alert.addAction(cancel)
         alert.addAction(okAction)

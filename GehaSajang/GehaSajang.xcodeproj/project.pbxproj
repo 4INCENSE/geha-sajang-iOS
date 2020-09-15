@@ -46,6 +46,8 @@
 		6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D519250380060069D900 /* UserInfoKey.swift */; };
 		6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */; };
 		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
+		6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */; };
+		6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */; };
 		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
 		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
@@ -107,6 +109,8 @@
 		6A83D519250380060069D900 /* UserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoKey.swift; sourceTree = "<group>"; };
 		6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactoryByState.swift; sourceTree = "<group>"; };
 		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsDetailViewController.swift; sourceTree = "<group>"; };
 		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +147,7 @@
 			children = (
 				6A6E19BE24F82A69007C582D /* TermsViewController.swift */,
 				6A675D6225021C49005F2DBA /* SignUpViewController.swift */,
+				6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */,
 				6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */,
 				6A7E929125024418009F184C /* CGColorExtention.swift */,
+				6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -485,6 +491,7 @@
 				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
 				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
 				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
+				6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */,
 				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
 				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
 				6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */,
@@ -507,6 +514,7 @@
 				6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */,
 				6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */,
 				6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */,
+				6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
