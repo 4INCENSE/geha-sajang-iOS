@@ -9,15 +9,18 @@
 import UIKit
 
 class SignInViewController: UIViewController {
+    
+    enum ErrorMessage: String, CustomStringConvertible {
+        var description: String { return self.rawValue }
+        case NoInput = "이메일과 비밀번호를 입력해주세요."
+        case Invalid = "아이디나 비밀번호가 일치하지 않습니다."
+        case NoAccount = "계정 정보가 없습니다."
+    }
 
-    @IBOutlet weak var emailTextField: SignInEmailTextField!
-    @IBOutlet weak var emailAlertMessage: SignInEmailConditionLabel!
-    @IBOutlet weak var passwordTextField: SignInPasswordTextField!
-    @IBOutlet weak var passwordAlertMessage: SignInPasswordConditionLabel!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInResultAlertMessageLabel: SignInPasswordConditionLabel!
     @IBOutlet weak var signInStackView: UIStackView!
-    let inputUserData = SignInInputUserData()
-    let emailTextFieldDelegate = SignInEmailTextFieldDelegate()
-    let passwordTextFieldDelegate = SignInPasswordTextFieldDelegate()
     
     override func viewDidLoad()  {
         super.viewDidLoad()
@@ -26,19 +29,19 @@ class SignInViewController: UIViewController {
     
     private func initialSetUpView() {
         navigationController?.navigationBar.isHidden = true
-        emailAlertMessage.isHidden = true
-        passwordAlertMessage.isHidden = true
-        setupDelegate()
-    }
-    
-    private func setupDelegate() {
-        emailTextFieldDelegate.inputUserData = inputUserData
-        emailTextField.delegate = emailTextFieldDelegate
-        passwordTextFieldDelegate.inputUserData =  inputUserData
-        passwordTextField.delegate = passwordTextFieldDelegate
+        signInResultAlertMessageLabel.isHidden = true
     }
     
     @IBAction func signInButtonTapped(_ sender: Any) {
+        guard let inputEmail = emailTextField.text else { return }
+        guard let inputPassword = passwordTextField.text else { return }
+        let isFilled = ConditionChecker.isFilled(emailTextField: inputEmail, passwordTextField: inputPassword)
+        if isFilled {
+            // TODO:- API 로그인 요청하기
+        } else {
+            let color = TextFieldFactoryByState.colorByState(state: .NoInput)
+            signInResultAlertMessageLabel.textColor = color
+            signInResultAlertMessageLabel.text = ErrorMessage.NoInput.description
+        }
     }
-    
 }
