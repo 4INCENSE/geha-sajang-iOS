@@ -510,7 +510,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Wt7-lL-alY">
-                                <rect key="frame" x="41.5" y="299.5" width="331" height="163"/>
+                                <rect key="frame" x="41.5" y="309" width="331" height="143.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="이메일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTd-be-b7E">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="20.5"/>
@@ -523,25 +523,19 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="email"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Alert Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXv-GT-fdp" customClass="SignInEmailConditionLabel">
-                                        <rect key="frame" x="0.0" y="64.5" width="331" height="14.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-G6-VER">
-                                        <rect key="frame" x="0.0" y="84" width="331" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="64.5" width="331" height="20.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Abe-CJ-9oT" customClass="SignInPasswordTextField" customModule="GehaSajang" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="109.5" width="331" height="34"/>
+                                        <rect key="frame" x="0.0" y="90" width="331" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Alert Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0U-Np-v5M" customClass="SignInPasswordConditionLabel" customModule="GehaSajang" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="148.5" width="331" height="14.5"/>
+                                        <rect key="frame" x="0.0" y="129" width="331" height="14.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -549,7 +543,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-VT-6vq">
-                                <rect key="frame" x="30" y="477.5" width="364" height="45"/>
+                                <rect key="frame" x="30" y="467.5" width="364" height="45"/>
                                 <color key="backgroundColor" name="MainBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="V3h-OR-3zw"/>
@@ -567,7 +561,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="sjF-iN-4Oj">
-                                <rect key="frame" x="60" y="532.5" width="294.5" height="30"/>
+                                <rect key="frame" x="60" y="522.5" width="294.5" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아직 회원이 아니신가요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvr-Wy-T1X">
                                         <rect key="frame" x="0.0" y="0.0" width="145.5" height="30"/>
@@ -602,10 +596,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="eCF-Ng-Sdd"/>
                     <connections>
-                        <outlet property="emailAlertMessage" destination="vXv-GT-fdp" id="Zod-NI-QBn"/>
                         <outlet property="emailTextField" destination="Ns6-eW-p4j" id="Seq-j4-e1h"/>
-                        <outlet property="passwordAlertMessage" destination="B0U-Np-v5M" id="5hj-d8-utn"/>
                         <outlet property="passwordTextField" destination="Abe-CJ-9oT" id="GZj-Q7-16R"/>
+                        <outlet property="signInResultAlertMessageLabel" destination="B0U-Np-v5M" id="5hj-d8-utn"/>
                         <outlet property="signInStackView" destination="Wt7-lL-alY" id="zXk-TT-wve"/>
                     </connections>
                 </viewController>
