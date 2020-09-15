@@ -8,7 +8,6 @@
 
 import UIKit
 import BEMCheckBox
-
 class TermsViewController: UIViewController {
     
     @IBOutlet weak var agreeAllCheckbox: BEMCheckBox!
@@ -25,8 +24,8 @@ class TermsViewController: UIViewController {
     
     private func setupInitialView() {
         self.navigationController?.isToolbarHidden = false
+        agreeButton.layer.cornerRadius = 20
         agreeButton.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
-        
     }
     // TODO:- API 요청
     @IBAction func agreeButtonTapped(_ sender: Any) {
@@ -34,9 +33,9 @@ class TermsViewController: UIViewController {
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
-        // dismiss 하면 이전에 화면에서 작성했던 텍스트가 남아있나...?
-        self.dismiss(animated: true, completion: nil)
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func userInfoTermsViewButtonTapped(_ sender: Any) {
         // TODO:- API 요청해서 개인정보 수집 및 이용 동의 약관 내용 받아와서 파라미터에 넣어주기
         presentTermsDetailVC(title: "title", content: "content")
