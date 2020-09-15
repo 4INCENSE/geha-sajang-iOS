@@ -39,6 +39,7 @@ class SignInViewController: UIViewController {
         if isFilled {
             // TODO:- API 로그인 요청하기
         } else {
+            signInResultAlertMessageLabel.isHidden = false
             let color = TextFieldFactoryByState.colorByState(state: .NoInput)
             signInResultAlertMessageLabel.textColor = color
             signInResultAlertMessageLabel.text = ErrorMessage.NoInput.description
