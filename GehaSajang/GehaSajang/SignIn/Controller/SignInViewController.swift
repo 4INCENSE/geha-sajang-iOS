@@ -19,7 +19,7 @@ class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var signInResultAlertMessageLabel: SignInPasswordConditionLabel!
+    @IBOutlet weak var signInResultAlertMessageLabel: UILabel!
     @IBOutlet weak var signInStackView: UIStackView!
     
     override func viewDidLoad()  {
