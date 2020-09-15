@@ -17,6 +17,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
         playBackgroundVideo()
     }
     
@@ -42,8 +43,4 @@ class LoginViewController: UIViewController {
         player!.seek(to: CMTime.zero)
         player!.play()
     }
-    
-    @IBAction func loginButtonTapped(_ sender: Any) {
-    }
 }
-
