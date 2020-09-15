@@ -50,8 +50,6 @@
 		6AB0EC25250F5782002F92E4 /* SignInEmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */; };
 		6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */; };
 		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
-		6AB182D1250B5C12001DDA61 /* RegisterGuesthouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */; };
-		6AB182D3250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */; };
 		6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051772510778800E08BC2 /* SignInEmailTextField.swift */; };
 		6AD0517B251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */; };
 		6AD0517D251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */; };
@@ -120,8 +118,6 @@
 		6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailConditionLabel.swift; sourceTree = "<group>"; };
 		6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordConditionLabel.swift; sourceTree = "<group>"; };
 		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
-		6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterGuesthouseViewController.swift; sourceTree = "<group>"; };
-		6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterGuesthouseServiceViewController.swift; sourceTree = "<group>"; };
 		6AD051772510778800E08BC2 /* SignInEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextField.swift; sourceTree = "<group>"; };
 		6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
@@ -273,7 +269,6 @@
 				6AD0CF4A24E9426E0061A2B2 /* Login */,
 				6AB0EC1A250F54B3002F92E4 /* SignIn */,
 				6A6E19BD24F82A39007C582D /* SignUp */,
-				6AB182CF250B5BE1001DDA61 /* RegisterGuesthouse */,
 				6A68DA4024E975200075CA73 /* Extensions */,
 				6AD0CF5124E943690061A2B2 /* Resource */,
 			);
@@ -333,15 +328,6 @@
 				6AD051772510778800E08BC2 /* SignInEmailTextField.swift */,
 			);
 			path = TextField;
-			sourceTree = "<group>";
-		};
-		6AB182CF250B5BE1001DDA61 /* RegisterGuesthouse */ = {
-			isa = PBXGroup;
-			children = (
-				6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */,
-				6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */,
-			);
-			path = RegisterGuesthouse;
 			sourceTree = "<group>";
 		};
 		6AD05179251078A600E08BC2 /* Delegate */ = {
@@ -551,8 +537,6 @@
 				6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */,
 				6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */,
 				6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */,
-				6AB182D3250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift in Sources */,
-				6AB182D1250B5C12001DDA61 /* RegisterGuesthouseViewController.swift in Sources */,
 				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
 				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
 				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
