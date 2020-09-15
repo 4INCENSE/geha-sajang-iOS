@@ -1,0 +1,6 @@
+framework module Pods_GehaSajang {
+  umbrella header "Pods-GehaSajang-umbrella.h"
+
+  export *
+  module * { export * }
+}
