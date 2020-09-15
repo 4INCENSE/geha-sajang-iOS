@@ -16,14 +16,18 @@ struct ConditionChecker {
     //^(?=.*[A-Za-z])(?=.*[0-9]).{2,15}.$
 
     static func isValidEmail(_ email:String) -> Bool {
-          return evaluate(text: email, with: emailRegEx)
+        evaluate(text: email, with: emailRegEx)
     }
 
     static func isValidPassword(_ password: String) -> Bool {
-        return evaluate(text: password, with: passRegEx)
+        evaluate(text: password, with: passRegEx)
     }
     
     static private func evaluate(text: String, with regex: String) -> Bool {
         NSPredicate(format: "SELF MATCHES[c] %@", regex).evaluate(with: text)
+    }
+    
+    static func isFilled(emailTextField: String, passwordTextField: String) -> Bool {
+        emailTextField.isEmpty == false && passwordTextField.isEmpty == false
     }
 }
