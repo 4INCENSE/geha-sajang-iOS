@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */; };
+		6A2435EF2508D42C003A3269 /* SignInPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */; };
+		6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */; };
+		6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */; };
+		6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6225021C49005F2DBA /* SignUpViewController.swift */; };
+		6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6625021D1B005F2DBA /* SignInViewController.swift */; };
 		6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */; };
 		6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */; };
 		6A68DA5324E994320075CA73 /* S-CoreDream-5Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */; };
@@ -19,10 +25,17 @@
 		6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */; };
 		6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */; };
 		6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19BE24F82A69007C582D /* TermsViewController.swift */; };
-		6A6E19C124F82A7C007C582D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C024F82A7C007C582D /* SignUpViewController.swift */; };
 		6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C424F8F16E007C582D /* EmailTextField.swift */; };
 		6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */; };
-		6A6E19C924F918C0007C582D /* ConditionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C824F918C0007C582D /* ConditionCheck.swift */; };
+		6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C824F918C0007C582D /* ConditionChecker.swift */; };
+		6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */; };
+		6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */; };
+		6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */; };
+		6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */; };
+		6A7E928825022AA4009F184C /* InputUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928725022AA4009F184C /* InputUserData.swift */; };
+		6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928925022CEA009F184C /* TextFieldState.swift */; };
+		6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */; };
+		6A7E929225024418009F184C /* CGColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E929125024418009F184C /* CGColorExtention.swift */; };
 		6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517724DBBF0700DB1615 /* AppDelegate.swift */; };
 		6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517924DBBF0700DB1615 /* SceneDelegate.swift */; };
 		6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* LoginViewController.swift */; };
@@ -31,7 +44,20 @@
 		6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518324DBBF0800DB1615 /* Assets.xcassets */; };
 		6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */; };
 		6A83519224DBBF0800DB1615 /* GehaSajangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */; };
+		6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D519250380060069D900 /* UserInfoKey.swift */; };
+		6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */; };
+		6AB0EC23250F561A002F92E4 /* SignInInputUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */; };
+		6AB0EC25250F5782002F92E4 /* SignInEmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */; };
+		6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */; };
+		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
+		6AB182D1250B5C12001DDA61 /* RegisterGuesthouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */; };
+		6AB182D3250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */; };
+		6ABE37D624FD613800588DED /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE37D524FD613800588DED /* Endpoints.swift */; };
+		6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051772510778800E08BC2 /* SignInEmailTextField.swift */; };
+		6AD0517B251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */; };
+		6AD0517D251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */; };
 		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
+		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +71,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GehaSajang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.debug.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.release.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.release.xcconfig"; sourceTree = "<group>"; };
+		6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConditionLabel.swift; sourceTree = "<group>"; };
+		6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordTextField.swift; sourceTree = "<group>"; };
+		6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordTextField.swift; sourceTree = "<group>"; };
+		6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextField.swift; sourceTree = "<group>"; };
+		6A675D6225021C49005F2DBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A675D6625021D1B005F2DBA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GehaSaJangLoginBackgroundVideo.mp4; sourceTree = "<group>"; };
 		6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-5Medium.otf"; sourceTree = "<group>"; };
@@ -57,10 +92,17 @@
 		6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-3Light.otf"; sourceTree = "<group>"; };
 		6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-9Black.otf"; sourceTree = "<group>"; };
 		6A6E19BE24F82A69007C582D /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
-		6A6E19C024F82A7C007C582D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6A6E19C424F8F16E007C582D /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConditionLabel.swift; sourceTree = "<group>"; };
-		6A6E19C824F918C0007C582D /* ConditionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionCheck.swift; sourceTree = "<group>"; };
+		6A6E19C824F918C0007C582D /* ConditionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionChecker.swift; sourceTree = "<group>"; };
+		6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextField.swift; sourceTree = "<group>"; };
+		6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A7E928725022AA4009F184C /* InputUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUserData.swift; sourceTree = "<group>"; };
+		6A7E928925022CEA009F184C /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
+		6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationNameExtension.swift; sourceTree = "<group>"; };
+		6A7E929125024418009F184C /* CGColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtention.swift; sourceTree = "<group>"; };
 		6A83517424DBBF0700DB1615 /* GehaSajang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GehaSajang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83517724DBBF0700DB1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A83517924DBBF0700DB1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +115,18 @@
 		6A83518D24DBBF0800DB1615 /* GehaSajangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GehaSajangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GehaSajangTests.swift; sourceTree = "<group>"; };
 		6A83519324DBBF0800DB1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A83D519250380060069D900 /* UserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoKey.swift; sourceTree = "<group>"; };
+		6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactoryByState.swift; sourceTree = "<group>"; };
+		6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInputUserData.swift; sourceTree = "<group>"; };
+		6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailConditionLabel.swift; sourceTree = "<group>"; };
+		6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordConditionLabel.swift; sourceTree = "<group>"; };
+		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterGuesthouseViewController.swift; sourceTree = "<group>"; };
+		6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterGuesthouseServiceViewController.swift; sourceTree = "<group>"; };
+		6ABE37D524FD613800588DED /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		6AD051772510778800E08BC2 /* SignInEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextField.swift; sourceTree = "<group>"; };
+		6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +149,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		687E401C65DC13B8CA3C83E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */,
+				4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A2435E32507F7EC003A3269 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19BE24F82A69007C582D /* TermsViewController.swift */,
+				6A675D6225021C49005F2DBA /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A2435E42507F7FF003A3269 /* ConditionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */,
+				6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */,
+			);
+			path = ConditionLabel;
+			sourceTree = "<group>";
+		};
+		6A2435E52507F81C003A3269 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19C424F8F16E007C582D /* EmailTextField.swift */,
+				6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */,
+				6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */,
+				6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		6A2435E62507F82F003A3269 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */,
+				6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */,
+				6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */,
+				6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		6A2435E72507F844003A3269 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E928725022AA4009F184C /* InputUserData.swift */,
+				6A6E19C824F918C0007C582D /* ConditionChecker.swift */,
+				6A7E928925022CEA009F184C /* TextFieldState.swift */,
+				6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */,
+				6A83D519250380060069D900 /* UserInfoKey.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
 		6A68DA4024E975200075CA73 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */,
+				6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */,
+				6A7E929125024418009F184C /* CGColorExtention.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -121,11 +239,11 @@
 		6A6E19BD24F82A39007C582D /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				6A6E19BE24F82A69007C582D /* TermsViewController.swift */,
-				6A6E19C024F82A7C007C582D /* SignUpViewController.swift */,
-				6A6E19C424F8F16E007C582D /* EmailTextField.swift */,
-				6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */,
-				6A6E19C824F918C0007C582D /* ConditionCheck.swift */,
+				6A2435E32507F7EC003A3269 /* Controller */,
+				6A2435E72507F844003A3269 /* Manage */,
+				6A2435E42507F7FF003A3269 /* ConditionLabel */,
+				6A2435E52507F81C003A3269 /* TextField */,
+				6A2435E62507F82F003A3269 /* Delegate */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -134,10 +252,11 @@
 			isa = PBXGroup;
 			children = (
 				6A83517624DBBF0700DB1615 /* GehaSajang */,
-				6A6E19BD24F82A39007C582D /* SignUp */,
 				6AD0CF4E24E942B30061A2B2 /* AppComposition */,
 				6A83519024DBBF0800DB1615 /* GehaSajangTests */,
 				6A83517524DBBF0700DB1615 /* Products */,
+				687E401C65DC13B8CA3C83E7 /* Pods */,
+				A1F3884389E7FF8C9EA53DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,9 +272,13 @@
 		6A83517624DBBF0700DB1615 /* GehaSajang */ = {
 			isa = PBXGroup;
 			children = (
+				6AD0CF4A24E9426E0061A2B2 /* Login */,
+				6AB0EC1A250F54B3002F92E4 /* SignIn */,
+				6A6E19BD24F82A39007C582D /* SignUp */,
+				6AB182CF250B5BE1001DDA61 /* RegisterGuesthouse */,
+				6ABE37D424FD610500588DED /* Network */,
 				6A68DA4024E975200075CA73 /* Extensions */,
 				6AD0CF5124E943690061A2B2 /* Resource */,
-				6AD0CF4A24E9426E0061A2B2 /* Login */,
 			);
 			path = GehaSajang;
 			sourceTree = "<group>";
@@ -167,6 +290,78 @@
 				6A83519324DBBF0800DB1615 /* Info.plist */,
 			);
 			path = GehaSajangTests;
+			sourceTree = "<group>";
+		};
+		6AB0EC1A250F54B3002F92E4 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0EC1B250F556E002F92E4 /* Controller */,
+				6AB0EC1C250F5576002F92E4 /* Manage */,
+				6AB0EC1D250F5580002F92E4 /* ConditionLabel */,
+				6AB0EC1E250F5587002F92E4 /* TextField */,
+				6AD05179251078A600E08BC2 /* Delegate */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		6AB0EC1B250F556E002F92E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A675D6625021D1B005F2DBA /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AB0EC1C250F5576002F92E4 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0EC22250F561A002F92E4 /* SignInInputUserData.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		6AB0EC1D250F5580002F92E4 /* ConditionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0EC24250F5782002F92E4 /* SignInEmailConditionLabel.swift */,
+				6AB0EC26250F57FA002F92E4 /* SignInPasswordConditionLabel.swift */,
+			);
+			path = ConditionLabel;
+			sourceTree = "<group>";
+		};
+		6AB0EC1E250F5587002F92E4 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				6A2435EE2508D42C003A3269 /* SignInPasswordTextField.swift */,
+				6AD051772510778800E08BC2 /* SignInEmailTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		6AB182CF250B5BE1001DDA61 /* RegisterGuesthouse */ = {
+			isa = PBXGroup;
+			children = (
+				6AB182D0250B5C12001DDA61 /* RegisterGuesthouseViewController.swift */,
+				6AB182D2250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift */,
+			);
+			path = RegisterGuesthouse;
+			sourceTree = "<group>";
+		};
+		6ABE37D424FD610500588DED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE37D524FD613800588DED /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6AD05179251078A600E08BC2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0517A251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift */,
+				6AD0517C251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		6AD0CF4A24E9426E0061A2B2 /* Login */ = {
@@ -201,6 +396,14 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		A1F3884389E7FF8C9EA53DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,9 +411,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A83519624DBBF0800DB1615 /* Build configuration list for PBXNativeTarget "GehaSajang" */;
 			buildPhases = (
+				A777B2F535E94CEB6ABCE4F4 /* [CP] Check Pods Manifest.lock */,
 				6A83517024DBBF0700DB1615 /* Sources */,
 				6A83517124DBBF0700DB1615 /* Frameworks */,
 				6A83517224DBBF0700DB1615 /* Resources */,
+				2278CCABF1D6FAF1574DFEBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,22 +512,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2278CCABF1D6FAF1574DFEBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A777B2F535E94CEB6ABCE4F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GehaSajang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A83517024DBBF0700DB1615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6E19C924F918C0007C582D /* ConditionCheck.swift in Sources */,
+				6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */,
+				6AB0EC27250F57FA002F92E4 /* SignInPasswordConditionLabel.swift in Sources */,
+				6AD051782510778800E08BC2 /* SignInEmailTextField.swift in Sources */,
+				6AB182D3250B5C91001DDA61 /* RegisterGuesthouseServiceViewController.swift in Sources */,
+				6AB182D1250B5C12001DDA61 /* RegisterGuesthouseViewController.swift in Sources */,
+				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
+				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
+				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
+				6AD0517D251078DC00E08BC2 /* SignInPasswordTextFieldDelegate.swift in Sources */,
+				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
+				6AB0EC25250F5782002F92E4 /* SignInEmailConditionLabel.swift in Sources */,
+				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
+				6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */,
+				6AD0517B251078C600E08BC2 /* SignInEmailTextFieldDelegate.swift in Sources */,
+				6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */,
+				6AB0EC23250F561A002F92E4 /* SignInInputUserData.swift in Sources */,
 				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
+				6A2435EF2508D42C003A3269 /* SignInPasswordTextField.swift in Sources */,
+				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
 				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
+				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
+				6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
 				6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */,
+				6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */,
 				6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */,
 				6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */,
+				6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */,
 				6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */,
-				6A6E19C124F82A7C007C582D /* SignUpViewController.swift in Sources */,
+				6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */,
 				6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */,
+				6ABE37D624FD613800588DED /* Endpoints.swift in Sources */,
+				6A7E928825022AA4009F184C /* InputUserData.swift in Sources */,
+				6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */,
 				6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */,
+				6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +692,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -480,6 +753,7 @@
 		};
 		6A83519724DBBF0800DB1615 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +772,7 @@
 		};
 		6A83519824DBBF0800DB1615 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
