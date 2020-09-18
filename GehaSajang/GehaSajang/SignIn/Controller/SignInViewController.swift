@@ -35,7 +35,7 @@ class SignInViewController: UIViewController {
     @IBAction func signInButtonTapped(_ sender: Any) {
         guard let inputEmail = emailTextField.text else { return }
         guard let inputPassword = passwordTextField.text else { return }
-        let isFilled = ConditionChecker.isFilled(emailTextField: inputEmail, passwordTextField: inputPassword)
+        let isFilled = ConditionChecker.isFilled(emailText: inputEmail, passwordText: inputPassword)
         if isFilled {
             // TODO:- API 로그인 요청하기
         } else {
