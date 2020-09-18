@@ -12,11 +12,12 @@ struct TextFieldFactoryByState {
     
     static func colorByState(state: TextFieldState) -> UIColor {
         switch state {
-        case .Valid: return .blue
+        case .Valid: return .lightGray
         case .WrongPattern: return .red
         case .NoInput: return .red
         case .Duplicated: return .orange
         case .NoMatched: return .red
+        case .InvalidLength: return .red
         }
     }
 }

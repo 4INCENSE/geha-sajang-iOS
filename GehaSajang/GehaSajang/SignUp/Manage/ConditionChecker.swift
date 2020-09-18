@@ -10,10 +10,8 @@ import Foundation
 
 struct ConditionChecker {
     
-    static let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,120}"
-    static let passRegEx = "(?=[^a-z]*[a-z])[^0-9]*[0-9].*"
-    //^[A-Za-z0-9]{6,12}$
-    //^(?=.*[A-Za-z])(?=.*[0-9]).{2,15}.$
+    static private let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,120}"
+    static private let passRegEx = "(?=[^a-z]*[a-z])[^0-9]*[0-9].*"
 
     static func isValidEmail(_ email:String) -> Bool {
         evaluate(text: email, with: emailRegEx)
@@ -27,7 +25,14 @@ struct ConditionChecker {
         NSPredicate(format: "SELF MATCHES[c] %@", regex).evaluate(with: text)
     }
     
-    static func isFilled(emailTextField: String, passwordTextField: String) -> Bool {
-        emailTextField.isEmpty == false && passwordTextField.isEmpty == false
+    static func isValidLength(text: String, minimum: Int, maximum: Int) -> Bool {
+        if text.count >= minimum && text.count <= maximum {
+            return true
+        }
+        return false
+    }
+    
+    static func isFilled(emailText: String?, passwordText: String?) -> Bool {
+        emailText.isBlank == false && passwordText?.isBlank == false
     }
 }
