@@ -54,6 +54,15 @@ class SignUpViewController: UIViewController {
         nicknameTextField.delegate = nicknameDelegate
     }
     
+    private func setupNotification() {
+        NotificationCenter.default.addObserver(self, selector: #selector(updateNickname), name: UITextField.textDidChangeNotification, object: nicknameTextField)
+    }
+    
+    @objc private func updateNickname(_ notification: Notification) {
+        guard let inputText = notification.object as? UITextField else { return }
+        inputUserData.nickname = inputText.text
+    }
+    
     @IBAction func deleteButtonTapped(_ sender: Any) {
         profileImageView.image = #imageLiteral(resourceName: "gehaSaJangLogo_white")
         profileTextField.placeholder = "파일을 업로드해 주세요"

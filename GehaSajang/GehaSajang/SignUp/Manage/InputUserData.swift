@@ -20,7 +20,8 @@ class InputUserData {
     }
     var inputPassword: String? {
         didSet {
-            if inputPassword == nil || inputPassword == "" {
+            guard let inputPassword = inputPassword else { return }
+            if inputPassword.isEmpty {
                 sendNotification(notificationName: NSNotification.Name.PasswordTextFieldInput, textFieldState: .NoInput)
                 updatePasswordTextFieldState()
             }
@@ -28,17 +29,25 @@ class InputUserData {
     }
     var inputPasswordCheck: String? {
         didSet {
-            if inputPasswordCheck == nil || inputPasswordCheck == "" {
+            guard let inputPasswordCheck = inputPasswordCheck else { return }
+            if inputPasswordCheck.isEmpty {
+                
                 sendNotification(notificationName: NSNotification.Name.PasswordCheckTextFieldInput, textFieldState: .NoInput)
                 updatePasswordCheckTextFieldState()
             }
         }
     }
-    var nickName: String?
-    {
+    var nickname: String? {
         didSet {
-            if inputPasswordCheck == nil || inputPasswordCheck == "" || inputPasswordCheck!.count < 2 {
+            guard let nickname = nickname else { return }
+            if nickname.isEmpty {
                 sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .NoInput)
+            }
+            
+            let isValid = ConditionChecker.isValidLength(text: nickname, minimum: 2, maximum: 10)
+            switch isValid {
+            case true: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .Valid)
+            case false: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .InvalidLength)
             }
         }
     }

@@ -19,15 +19,17 @@ class NicknameTextFieldDelegate: NSObject, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         textField.resignFirstResponder()
-        inputUserData?.nickName = textField.text
+        inputUserData?.nickname = textField.text
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        guard let text = textField.text else { return true }
-        let newLength = text.count + string.count - range.length
-        lengthCondition = newLength <= 10 && newLength >= 2 ? TextFieldState.Valid : TextFieldState.WrongPattern
-        return newLength <= 10 && newLength >= 2
-    }
+        let currentText = textField.text ?? ""
+        guard let stringRange = Range(range, in: currentText) else { return false }
+     
+        let updatedText = currentText.replacingCharacters(in: stringRange, with: string)
+
+        return updatedText.count <= 10
+    } 
     
     private func sendNotification(notificationName: NSNotification.Name, lengthCondition: TextFieldState) {
         NotificationCenter.default.post(name: notificationName, object: nil, userInfo: [UserInfoKey.TextFieldState: lengthCondition])

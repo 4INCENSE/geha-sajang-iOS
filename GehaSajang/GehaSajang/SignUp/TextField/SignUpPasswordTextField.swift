@@ -14,22 +14,32 @@ class SignUpPasswordTextField: UITextField {
         didSet {
             guard let textFieldState = textFieldState else { return }
             updateView(by: textFieldState)
+            if textFieldState == .NoInput {
+                setupInitialView()
+            }
         }
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupNotification()
+        setupInitialView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupNotification()
+        setupInitialView()
     }
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.PasswordTextFieldInput, object: nil)
     }
+    
+    private func setupInitialView() {
+        self.placeholder = "영문, 숫자 조합으로 작성해주세요."
+    }
+    
     private func updateView(by state: TextFieldState)  {
         let color = TextFieldFactoryByState.colorByState(state: state)
         self.layer.borderWidth = 0.5
