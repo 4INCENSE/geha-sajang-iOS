@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAC2514B42A0018C952 /* StringExtension.swift */; };
+		6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAE2514B43C0018C952 /* OptionalExtension.swift */; };
 		6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */; };
 		6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */; };
 		6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */; };
@@ -49,6 +51,8 @@
 		6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */; };
 		6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */; };
 		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
+		6AEA669B25133AB900CCC496 /* PickImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA669A25133AB900CCC496 /* PickImageView.swift */; };
+		6AEA669D25133AC700CCC496 /* PickImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA669C25133AC700CCC496 /* PickImageView.xib */; };
 		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +70,8 @@
 		1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GehaSajang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.debug.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.release.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.release.xcconfig"; sourceTree = "<group>"; };
+		6A189EAC2514B42A0018C952 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6A189EAE2514B43C0018C952 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
 		6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConditionLabel.swift; sourceTree = "<group>"; };
 		6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordTextField.swift; sourceTree = "<group>"; };
 		6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextField.swift; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 		6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsDetailViewController.swift; sourceTree = "<group>"; };
 		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		6AEA669A25133AB900CCC496 /* PickImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickImageView.swift; sourceTree = "<group>"; };
+		6AEA669C25133AC700CCC496 /* PickImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +210,8 @@
 				6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */,
 				6A7E929125024418009F184C /* CGColorExtention.swift */,
 				6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */,
+				6A189EAC2514B42A0018C952 /* StringExtension.swift */,
+				6A189EAE2514B43C0018C952 /* OptionalExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +240,8 @@
 				6A2435E42507F7FF003A3269 /* ConditionLabel */,
 				6A2435E52507F81C003A3269 /* TextField */,
 				6A2435E62507F82F003A3269 /* Delegate */,
+				6AEA669A25133AB900CCC496 /* PickImageView.swift */,
+				6AEA669C25133AC700CCC496 /* PickImageView.xib */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -416,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A68DA5524E994320075CA73 /* S-CoreDream-6Bold.otf in Resources */,
+				6AEA669D25133AC700CCC496 /* PickImageView.xib in Resources */,
 				6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */,
 				6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */,
 				6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */,
@@ -489,8 +502,10 @@
 			files = (
 				6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */,
 				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
+				6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */,
 				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
 				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
+				6AEA669B25133AB900CCC496 /* PickImageView.swift in Sources */,
 				6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */,
 				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
 				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
@@ -499,6 +514,7 @@
 				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
 				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
 				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
+				6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */,
 				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
 				6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
