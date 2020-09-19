@@ -35,4 +35,11 @@ struct ConditionChecker {
     static func isFilled(emailText: String?, passwordText: String?) -> Bool {
         emailText.isBlank == false && passwordText?.isBlank == false
     }
+    
+    static func areAllBlanksFilled(in userInfo: InputUserData) -> Bool {
+        let isEmailBlank = userInfo.inputEmail.isBlank
+        let isPasswordBlank = userInfo.inputPassword.isBlank
+        let isPasswordCheckBlank = userInfo.inputPasswordCheck.isBlank
+        return isEmailBlank == false && isPasswordBlank == false && isPasswordCheckBlank == false
+    }
 }

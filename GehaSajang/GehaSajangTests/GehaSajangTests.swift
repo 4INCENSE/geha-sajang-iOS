@@ -11,6 +11,7 @@ import XCTest
 
 class GehaSajangTests: XCTestCase {
     
+    // MARK:- ConditionChecker
     func testValidEmail() {
         //given
         let email = "abcdef@ghijk.lmn"
@@ -128,11 +129,7 @@ class GehaSajangTests: XCTestCase {
         //given
         var email = "abcdef@ghijk.lmn"
         var password: String?
-        // String은 ""나 nil이 없다.
-        // "" 이 것도 입력 값으로 보인다
-        // 그렇다면 썼다가 지우면 isEmpty 상태일까 아니면 ""라도 값을 가지고 있을까?
         
-        //password.isEmpty = true
         //when
         var isValid = ConditionChecker.isFilled(emailText: email, passwordText: nil)
         //then
@@ -141,11 +138,6 @@ class GehaSajangTests: XCTestCase {
         //given
         email = "abcdef@ghijk.lmn"
         password = ""
-        // String은 ""나 nil이 없다.
-        // "" 이 것도 입력 값으로 보인다
-        // 그렇다면 썼다가 지우면 isEmpty 상태일까 아니면 ""라도 값을 가지고 있을까?
-        
-        //password.isEmpty = true
         //when
          isValid = ConditionChecker.isFilled(emailText: email, passwordText: password)
         //then
@@ -154,11 +146,6 @@ class GehaSajangTests: XCTestCase {
         //given
         email = "   "
         password = "1"
-        // String은 ""나 nil이 없다.
-        // "" 이 것도 입력 값으로 보인다
-        // 그렇다면 썼다가 지우면 isEmpty 상태일까 아니면 ""라도 값을 가지고 있을까?
-        
-        //password.isEmpty = true
         //when
          isValid = ConditionChecker.isFilled(emailText: email, passwordText: password)
         //then
@@ -170,7 +157,88 @@ class GehaSajangTests: XCTestCase {
         //when
          isValid = ConditionChecker.isFilled(emailText: email, passwordText: password)
         //then
-        XCTAssertEqual(password?.isBlank, false, "이메일이 빈 값입니다. newline")
+        XCTAssertEqual(isValid, false, "이메일이 빈 값입니다. newline")
     }
-
+    
+    func testAllBlanksFilled() {
+        // given
+        let userInfoData = InputUserData()
+        let email = "asdf@asdf.com"
+        let password = "password12"
+        let passwordCheck = "password12"
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        var isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, true, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워졌습니다.")
+    }
+    
+    func testSomeBlanksNotFilled() {
+        // given
+        var userInfoData = InputUserData()
+        var email = " "
+        var password = "password12"
+        var passwordCheck = "password12"
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        var isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, false, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워지지 않았습니다. - 이메일 white space ")
+        
+        // given
+        userInfoData = InputUserData()
+        email = ""
+        password = "password12"
+        passwordCheck = "password12"
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, false, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워지지 않았습니다. - 이메일 no value ")
+        
+        // given
+        userInfoData = InputUserData()
+        email = "\n"
+        password = "password12"
+        passwordCheck = "password12"
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, false, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워지지 않았습니다. - 이메일 newline ")
+        
+        // given
+        userInfoData = InputUserData()
+        email = "email@asdf.com"
+        password = ""
+        passwordCheck = "password12"
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, false, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워지지 않았습니다. - 비밀번호 no value ")
+        
+        // given
+        userInfoData = InputUserData()
+        email = "email@asdf.com"
+        password = "password12"
+        passwordCheck = ""
+        userInfoData.inputEmail = email
+        userInfoData.inputPassword = password
+        userInfoData.inputPasswordCheck = passwordCheck
+        // when
+        isValid = ConditionChecker.areAllBlanksFilled(in: userInfoData)
+        // then
+        XCTAssertEqual(isValid, false, "필수 항목인 이메일, 비밀번호, 비밀번호 확인 칸이 모두 채워지지 않았습니다. - 비밀번호 확인 no value ")
+    }
 }
