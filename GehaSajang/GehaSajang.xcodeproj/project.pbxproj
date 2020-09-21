@@ -37,6 +37,7 @@
 		6A7C2FCD2518D94B0008CE73 /* TextFieldObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FCC2518D94B0008CE73 /* TextFieldObserver.swift */; };
 		6A7C2FCF2518D9720008CE73 /* LabelObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FCE2518D9720008CE73 /* LabelObserver.swift */; };
 		6A7C2FD12518D9D80008CE73 /* PasswordCheckConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FD02518D9D80008CE73 /* PasswordCheckConditionLabel.swift */; };
+		6A7C2FD42518F4320008CE73 /* TextFieldPlaceholderMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */; };
 		6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */; };
 		6A7E928825022AA4009F184C /* InputUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928725022AA4009F184C /* InputUserData.swift */; };
 		6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928925022CEA009F184C /* TextFieldState.swift */; };
@@ -103,6 +104,7 @@
 		6A7C2FCC2518D94B0008CE73 /* TextFieldObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldObserver.swift; sourceTree = "<group>"; };
 		6A7C2FCE2518D9720008CE73 /* LabelObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelObserver.swift; sourceTree = "<group>"; };
 		6A7C2FD02518D9D80008CE73 /* PasswordCheckConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCheckConditionLabel.swift; sourceTree = "<group>"; };
+		6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPlaceholderMessage.swift; sourceTree = "<group>"; };
 		6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6A7E928725022AA4009F184C /* InputUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUserData.swift; sourceTree = "<group>"; };
 		6A7E928925022CEA009F184C /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				6A7E928925022CEA009F184C /* TextFieldState.swift */,
 				6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */,
 				6A83D519250380060069D900 /* UserInfoKey.swift */,
+				6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */,
 			);
 			path = Manage;
 			sourceTree = "<group>";
@@ -539,6 +542,7 @@
 				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
 				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
 				6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */,
+				6A7C2FD42518F4320008CE73 /* TextFieldPlaceholderMessage.swift in Sources */,
 				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
 				6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
