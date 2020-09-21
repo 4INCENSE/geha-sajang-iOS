@@ -112,7 +112,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="dzb-R7-Naj">
-                                <rect key="frame" x="30" y="64" width="354" height="430.5"/>
+                                <rect key="frame" x="30" y="64" width="354" height="391.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="회원가입" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gES-1c-FsL">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="30"/>
@@ -188,55 +188,34 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="프로필 사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvz-e0-LM1">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="HDy-Kd-ssa">
                                         <rect key="frame" x="0.0" y="371" width="354" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="NYM-eb-7JP">
-                                        <rect key="frame" x="0.0" y="396.5" width="354" height="34"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foa-sY-ERT" userLabel="업로드">
-                                                <rect key="frame" x="0.0" y="0.0" width="60" height="34"/>
-                                                <state key="normal" title="업로드">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="uploadButtonTapped:" destination="E9f-2u-F7y" eventType="touchUpInside" id="NTY-oO-cpo"/>
-                                                </connections>
-                                            </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="파일을 업로드 해주세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bmB-Lk-xcF">
-                                                <rect key="frame" x="62" y="0.0" width="241.5" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIH-ae-nuO">
-                                                <rect key="frame" x="305.5" y="0.0" width="48.5" height="34"/>
-                                                <state key="normal" title="삭제">
-                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="deleteButtonTapped:" destination="E9f-2u-F7y" eventType="touchUpInside" id="aCh-hI-UVl"/>
-                                                </connections>
-                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="프로필 사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvz-e0-LM1">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="아래 이미지를 눌러 프로필 사진을 선택해주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSq-5J-Fb5">
+                                                <rect key="frame" x="131.5" y="0.0" width="222.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="12"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="252" image="Gray Basic Image" translatesAutoresizingMaskIntoConstraints="NO" id="fZM-b5-Uxw">
-                                <rect key="frame" x="30" y="504.5" width="354" height="272.5"/>
+                                <rect key="frame" x="15" y="465.5" width="384" height="311.5"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNK-nT-dDk">
+                                <rect key="frame" x="15" y="465.5" width="384" height="311.5"/>
+                                <connections>
+                                    <action selector="uploadButtonTapped:" destination="E9f-2u-F7y" eventType="touchUpInside" id="UFt-Ry-UjA"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTN-vb-fje">
                                 <rect key="frame" x="25" y="787" width="364" height="45"/>
                                 <color key="backgroundColor" name="MainBlue"/>
@@ -258,11 +237,15 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="HNK-nT-dDk" firstAttribute="bottom" secondItem="fZM-b5-Uxw" secondAttribute="bottom" id="5hk-9c-RZG"/>
                             <constraint firstItem="kTN-vb-fje" firstAttribute="top" secondItem="fZM-b5-Uxw" secondAttribute="bottom" constant="10" id="Bmi-hv-keX"/>
+                            <constraint firstItem="HNK-nT-dDk" firstAttribute="top" secondItem="fZM-b5-Uxw" secondAttribute="top" id="Cjl-sZ-hbu"/>
                             <constraint firstItem="kTN-vb-fje" firstAttribute="leading" secondItem="hci-TF-1bq" secondAttribute="leading" constant="25" id="Cnh-6t-w40"/>
-                            <constraint firstItem="fZM-b5-Uxw" firstAttribute="leading" secondItem="hci-TF-1bq" secondAttribute="leading" constant="30" id="CxX-I8-SWJ"/>
-                            <constraint firstItem="hci-TF-1bq" firstAttribute="trailing" secondItem="fZM-b5-Uxw" secondAttribute="trailing" constant="30" id="DQo-GS-Tcd"/>
+                            <constraint firstItem="fZM-b5-Uxw" firstAttribute="leading" secondItem="hci-TF-1bq" secondAttribute="leading" constant="15" id="CxX-I8-SWJ"/>
+                            <constraint firstItem="hci-TF-1bq" firstAttribute="trailing" secondItem="fZM-b5-Uxw" secondAttribute="trailing" constant="15" id="DQo-GS-Tcd"/>
+                            <constraint firstItem="HNK-nT-dDk" firstAttribute="trailing" secondItem="fZM-b5-Uxw" secondAttribute="trailing" id="DXI-2b-be9"/>
                             <constraint firstItem="hci-TF-1bq" firstAttribute="bottom" secondItem="kTN-vb-fje" secondAttribute="bottom" constant="30" id="KOz-jl-bc1"/>
+                            <constraint firstItem="HNK-nT-dDk" firstAttribute="leading" secondItem="fZM-b5-Uxw" secondAttribute="leading" id="SfX-RA-zhO"/>
                             <constraint firstItem="hci-TF-1bq" firstAttribute="trailing" secondItem="kTN-vb-fje" secondAttribute="trailing" constant="25" id="XfV-Ua-h4M"/>
                             <constraint firstItem="hci-TF-1bq" firstAttribute="trailing" secondItem="dzb-R7-Naj" secondAttribute="trailing" constant="30" id="bS0-eD-eBF"/>
                             <constraint firstItem="dzb-R7-Naj" firstAttribute="top" secondItem="hci-TF-1bq" secondAttribute="top" constant="20" id="lDD-Z9-4sm"/>
@@ -282,7 +265,6 @@
                         <outlet property="passwordAlertMessageLabel" destination="PBf-yJ-MKa" id="MCx-oP-o82"/>
                         <outlet property="passwordTextField" destination="4y9-M0-dzN" id="7C9-IA-7Uf"/>
                         <outlet property="profileImageView" destination="fZM-b5-Uxw" id="k41-qO-hir"/>
-                        <outlet property="profileTextField" destination="bmB-Lk-xcF" id="wtv-Bi-wY8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kib-ae-v7m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

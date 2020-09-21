@@ -14,7 +14,6 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passwordTextField: SignUpPasswordTextField!
     @IBOutlet weak var checkPasswordTextField: CheckPasswordTextField!
     @IBOutlet weak var nicknameTextField: NicknameTextField!
-    @IBOutlet weak var profileTextField: UITextField!
     @IBOutlet weak var emailAlertMessageLabel: EmailConditionLabel!
     @IBOutlet weak var passwordAlertMessageLabel: PasswordConditionLabel!
     @IBOutlet weak var checkPasswordConditionLabel: PasswordConditionLabel!
@@ -36,7 +35,6 @@ class SignUpViewController: UIViewController {
     }
     
     private func setupinitialView() {
-        profileTextField.isUserInteractionEnabled = false
         emailAlertMessageLabel.isHidden = true
         passwordAlertMessageLabel.isHidden = true
         checkPasswordConditionLabel.isHidden = true
@@ -60,14 +58,9 @@ class SignUpViewController: UIViewController {
     
     @objc private func updateNickname(_ notification: Notification) {
         guard let inputText = notification.object as? UITextField else { return }
-        inputUserData.nickname = inputText.text
+        inputUserData.inputNickname = inputText.text
     }
-    
-    @IBAction func deleteButtonTapped(_ sender: Any) {
-        profileImageView.image = #imageLiteral(resourceName: "gehaSaJangLogo_white")
-        profileTextField.placeholder = "파일을 업로드해 주세요"
-    }
-    
+        
     @IBAction func uploadButtonTapped(_ sender: Any) {
         let alert =  UIAlertController(title: "프로필 이미지 선택", message: "카메라 / 사진앱에서 이미지를 가져오기", preferredStyle: .actionSheet)
         
@@ -77,12 +70,20 @@ class SignUpViewController: UIViewController {
             self.openCamera()
         }
         let cancel = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+        let delete = UIAlertAction(title: "삭제", style: .destructive) { (action) in
+            self.deleteImage()
+        }
         alert.addAction(library)
         alert.addAction(camera)
         alert.addAction(cancel)
+        alert.addAction(delete)
         
         present(alert, animated: true, completion: nil)
         
+    }
+    
+    private func deleteImage() {
+        profileImageView.image = #imageLiteral(resourceName: "gehaSaJangLogo_white")
     }
     
     @IBAction func signUpButtonTapped(_ sender: Any) {
@@ -124,7 +125,6 @@ extension SignUpViewController : UIImagePickerControllerDelegate, UINavigationCo
         }
         dismiss(animated: true, completion: nil)
         print(UIImagePickerController.InfoKey.originalImage.rawValue)
-        profileTextField.placeholder = ""
     }
     
 }
