@@ -8,41 +8,13 @@
 
 import UIKit
 
-class EmailConditionLabel: UILabel {
+class EmailConditionLabel: LabelObserver {
     
-    var labelState: TextFieldState? {
-        didSet {
-            guard let labelState = labelState else { return }
-            updateView(by: labelState)
-        }
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.EmailTextFieldInput, object: nil)
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setupNotification()
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        setupNotification()
-    }
-    
-    private func setupNotification() {
+    override func setupNotification() {
         NotificationCenter.default.addObserver(self, selector: #selector(updateState), name: NSNotification.Name.EmailTextFieldInput, object: nil)
-    }
-    
-    @objc private func updateState(_ notification: Notification) {
-        guard let state = notification.userInfo?[UserInfoKey.TextFieldState] as? TextFieldState else { return }
-        labelState = state
-    }
-    
-    private func updateView(by state: TextFieldState)  {
-        if state != .Valid {
-            self.isHidden = false
-            self.text = state.rawValue
-            self.textColor = TextFieldFactoryByState.colorByState(state: state)
-        } else {
-            self.isHidden = true
-        }
     }
 }
