@@ -19,7 +19,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var checkPasswordConditionLabel: PasswordConditionLabel!
     @IBOutlet weak var nickNameConditionLabel: UILabel!
     @IBOutlet weak var profileImageView: UIImageView!
-    let alert = UIAlertController(title: "회원가입 완료", message: "회원가입이 완료되었습니다. 서비스 이용을 위해 게스트하우스에 대한 정보를 등록해주세요.", preferredStyle: .alert)
+    let alert = UIAlertController(title: "회원가입 완료", message: "회원가입이 완료되었습니다 🎉 \n 이메일을 인증해주세요.", preferredStyle: .alert)
     let inputUserData = InputUserData()
     let picker = UIImagePickerController()
     private let emailDelegate = EmailTextFieldDelegate()
@@ -62,7 +62,7 @@ class SignUpViewController: UIViewController {
     }
         
     @IBAction func uploadButtonTapped(_ sender: Any) {
-        let alert =  UIAlertController(title: "프로필 이미지 선택", message: "카메라 / 사진앱에서 이미지를 가져오기", preferredStyle: .actionSheet)
+        let alert =  UIAlertController(title: "프로필 이미지 선택", message: "카메라앱/사진앱에서 이미지를 가져오기", preferredStyle: .actionSheet)
         
         let library =  UIAlertAction(title: "사진앨범", style: .default) { (action) in self.openLibrary()
         }
@@ -87,26 +87,19 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUpButtonTapped(_ sender: Any) {
-        let registerGuesthouseVC = UIStoryboard.registerGuesthouseViewController
-        let loginVC = UIStoryboard.loginViewController
-        
-        let okAction = UIAlertAction(title: "계속하기", style: .default) { (action) in
-            self.navigationController?.pushViewController(registerGuesthouseVC, animated: true)
+        let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+            //TODO: - 이메일 인증 화면으로 전환하기
         }
-        let cancel = UIAlertAction(title: "다음에 하기", style: .cancel) {(action) in
-            self.navigationController?.pushViewController(loginVC, animated: true)
-        }
-        alert.addAction(cancel)
         alert.addAction(okAction)
         present(alert, animated: true, completion: nil)
     }
     
-    func openLibrary(){
+    private func openLibrary(){
         picker.sourceType = .photoLibrary
         present(picker, animated: false, completion: nil)
     }
     
-    func openCamera(){
+    private func openCamera(){
         if(UIImagePickerController .isSourceTypeAvailable(.camera)){
             picker.sourceType = .camera
             present(picker, animated: false, completion: nil)
