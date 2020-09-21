@@ -13,12 +13,13 @@ class SignUpPasswordTextField: UITextField {
     var textFieldState: TextFieldState? {
         didSet {
             guard let textFieldState = textFieldState else { return }
-            updateView(by: textFieldState)
             if textFieldState == .NoInput {
                 setupInitialView()
             }
+            updateView(by: textFieldState)
         }
     }
+    let placeholderText = "영문, 숫자 조합으로 입력해주세요(8-16자)"
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -37,7 +38,7 @@ class SignUpPasswordTextField: UITextField {
     }
     
     private func setupInitialView() {
-        self.placeholder = "영문, 숫자 조합으로 작성해주세요."
+        self.placeholder = placeholderText
     }
     
     private func updateView(by state: TextFieldState)  {

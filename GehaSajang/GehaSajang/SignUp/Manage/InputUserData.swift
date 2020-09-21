@@ -23,8 +23,8 @@ class InputUserData {
             guard let inputPassword = inputPassword else { return }
             if inputPassword.isEmpty {
                 sendNotification(notificationName: NSNotification.Name.PasswordTextFieldInput, textFieldState: .NoInput)
-                updatePasswordTextFieldState()
             }
+            updatePasswordTextFieldState()
         }
     }
     var inputPasswordCheck: String? {
@@ -33,22 +33,18 @@ class InputUserData {
             if inputPasswordCheck.isEmpty {
                 
                 sendNotification(notificationName: NSNotification.Name.PasswordCheckTextFieldInput, textFieldState: .NoInput)
-                updatePasswordCheckTextFieldState()
             }
+            updatePasswordCheckTextFieldState()
         }
     }
-    var nickname: String? {
+    
+    var inputNickname: String? {
         didSet {
-            guard let nickname = nickname else { return }
+            guard let nickname = inputNickname else { return }
             if nickname.isEmpty {
                 sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .NoInput)
             }
-            
-            let isValid = ConditionChecker.isValidLength(text: nickname, minimum: 2, maximum: 10)
-            switch isValid {
-            case true: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .Valid)
-            case false: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .InvalidLength)
-            }
+            updateNicknameTextFieldState()
         }
     }
     var profileImage: String?
@@ -65,15 +61,23 @@ class InputUserData {
         let isValid = ConditionChecker.isValidPassword(inputPassword ?? "")
         switch isValid {
         case true: sendNotification(notificationName: NSNotification.Name.PasswordTextFieldInput, textFieldState: .Valid)
-        case false: sendNotification(notificationName: NSNotification.Name.PasswordTextFieldInput, textFieldState: .NoInput)
+        case false: sendNotification(notificationName: NSNotification.Name.PasswordTextFieldInput, textFieldState: .WrongPattern)
         }
     }
     
     private func updatePasswordCheckTextFieldState() {
-        let isEqual = inputPassword == inputPassword && inputPasswordCheck != nil
+        let isEqual = inputPassword == inputPasswordCheck && inputPasswordCheck != nil
         switch isEqual {
         case true: sendNotification(notificationName: NSNotification.Name.PasswordCheckTextFieldInput, textFieldState: .Valid)
         case false: sendNotification(notificationName: NSNotification.Name.PasswordCheckTextFieldInput, textFieldState: .NoMatched)
+        }
+    }
+    
+    private func updateNicknameTextFieldState() {
+        let isValid = ConditionChecker.isValidLength(text: inputNickname ?? "" , minimum: 2, maximum: 10)
+        switch isValid {
+        case true: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .Valid)
+        case false: sendNotification(notificationName: NSNotification.Name.NicknameTextFieldInput, textFieldState: .InvalidLength)
         }
     }
     

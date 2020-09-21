@@ -16,20 +16,28 @@ class CheckPasswordTextField: UITextField {
             updateView(by: textFieldState)
         }
     }
+    let placeholderText = "비밀번호를 입력해주세요"
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupNotification()
+        setupInitialView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupNotification()
+        setupInitialView()
     }
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.PasswordCheckTextFieldInput, object: nil)
     }
+    
+    private func setupInitialView() {
+        self.placeholder = placeholderText
+    }
+    
     private func updateView(by state: TextFieldState)  {
         let color = TextFieldFactoryByState.colorByState(state: state)
         self.layer.borderWidth = 0.5

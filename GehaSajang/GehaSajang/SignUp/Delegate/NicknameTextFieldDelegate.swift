@@ -19,7 +19,7 @@ class NicknameTextFieldDelegate: NSObject, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         textField.resignFirstResponder()
-        inputUserData?.nickname = textField.text
+        inputUserData?.inputNickname = textField.text
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {

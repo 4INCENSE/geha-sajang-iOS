@@ -16,19 +16,26 @@ class EmailTextField: UITextField {
             updateView(by: textFieldState)
         }
     }
+    let placeholderText = "이메일을 입력하주세요"
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupNotification()
+        setupInitialView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setupNotification()
+        setupInitialView()
     }
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.EmailTextFieldInput, object: nil)
+    }
+    
+    private func setupInitialView() {
+        self.placeholder = placeholderText
     }
     
     private func updateView(by state: TextFieldState)  {

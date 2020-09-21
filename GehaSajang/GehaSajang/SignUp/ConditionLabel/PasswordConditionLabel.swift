@@ -9,7 +9,7 @@
 import UIKit
 
 class PasswordConditionLabel: UILabel {
-
+    
     var labelState: TextFieldState? {
         didSet {
             guard let labelState = labelState else { return }
@@ -29,6 +29,7 @@ class PasswordConditionLabel: UILabel {
     
     private func setupNotification() {
         NotificationCenter.default.addObserver(self, selector: #selector(updateState), name: NSNotification.Name.PasswordTextFieldInput, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(updateState), name: NSNotification.Name.PasswordCheckTextFieldInput, object: nil)
     }
     
     @objc private func updateState(_ notification: Notification) {
@@ -43,6 +44,7 @@ class PasswordConditionLabel: UILabel {
             self.textColor = TextFieldFactoryByState.colorByState(state: state)
         } else {
             self.isHidden = true
+            self.text = state.description
         }
     }
 }
