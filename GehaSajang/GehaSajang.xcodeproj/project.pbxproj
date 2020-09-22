@@ -3,18 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAC2514B42A0018C952 /* StringExtension.swift */; };
+		6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAE2514B43C0018C952 /* OptionalExtension.swift */; };
+		6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */; };
+		6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */; };
+		6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */; };
+		6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6225021C49005F2DBA /* SignUpViewController.swift */; };
+		6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6625021D1B005F2DBA /* SignInViewController.swift */; };
+		6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */; };
+		6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */; };
+		6A68DA5324E994320075CA73 /* S-CoreDream-5Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */; };
+		6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */; };
+		6A68DA5524E994320075CA73 /* S-CoreDream-6Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */; };
+		6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */; };
+		6A68DA5724E994320075CA73 /* S-CoreDream-7ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */; };
+		6A68DA5824E994320075CA73 /* S-CoreDream-2ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */; };
+		6A68DA5924E994320075CA73 /* S-CoreDream-8Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */; };
+		6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */; };
+		6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */; };
+		6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19BE24F82A69007C582D /* TermsViewController.swift */; };
+		6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C424F8F16E007C582D /* EmailTextField.swift */; };
+		6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */; };
+		6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C824F918C0007C582D /* ConditionChecker.swift */; };
+		6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */; };
+		6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */; };
+		6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */; };
+		6A7C2FC7251898200008CE73 /* NicknameConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FC6251898200008CE73 /* NicknameConditionLabel.swift */; };
+		6A7C2FCA2518C5D60008CE73 /* ViewUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FC92518C5D60008CE73 /* ViewUpdating.swift */; };
+		6A7C2FCD2518D94B0008CE73 /* TextFieldObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FCC2518D94B0008CE73 /* TextFieldObserver.swift */; };
+		6A7C2FCF2518D9720008CE73 /* LabelObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FCE2518D9720008CE73 /* LabelObserver.swift */; };
+		6A7C2FD12518D9D80008CE73 /* PasswordCheckConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FD02518D9D80008CE73 /* PasswordCheckConditionLabel.swift */; };
+		6A7C2FD42518F4320008CE73 /* TextFieldPlaceholderMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */; };
+		6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */; };
+		6A7E928825022AA4009F184C /* InputUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928725022AA4009F184C /* InputUserData.swift */; };
+		6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928925022CEA009F184C /* TextFieldState.swift */; };
+		6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */; };
+		6A7E929225024418009F184C /* CGColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E929125024418009F184C /* CGColorExtention.swift */; };
 		6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517724DBBF0700DB1615 /* AppDelegate.swift */; };
 		6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517924DBBF0700DB1615 /* SceneDelegate.swift */; };
-		6A83517C24DBBF0700DB1615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* ViewController.swift */; };
+		6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83517B24DBBF0700DB1615 /* LoginViewController.swift */; };
 		6A83517F24DBBF0700DB1615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A83517D24DBBF0700DB1615 /* Main.storyboard */; };
 		6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */; };
 		6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518324DBBF0800DB1615 /* Assets.xcassets */; };
 		6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */; };
 		6A83519224DBBF0800DB1615 /* GehaSajangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */; };
+		6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D519250380060069D900 /* UserInfoKey.swift */; };
+		6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */; };
+		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
+		6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */; };
+		6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */; };
+		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
+		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +71,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GehaSajang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.debug.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.release.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.release.xcconfig"; sourceTree = "<group>"; };
+		6A189EAC2514B42A0018C952 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6A189EAE2514B43C0018C952 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
+		6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConditionLabel.swift; sourceTree = "<group>"; };
+		6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordTextField.swift; sourceTree = "<group>"; };
+		6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextField.swift; sourceTree = "<group>"; };
+		6A675D6225021C49005F2DBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A675D6625021D1B005F2DBA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GehaSaJangLoginBackgroundVideo.mp4; sourceTree = "<group>"; };
+		6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-5Medium.otf"; sourceTree = "<group>"; };
+		6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-1Thin.otf"; sourceTree = "<group>"; };
+		6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-6Bold.otf"; sourceTree = "<group>"; };
+		6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-4Regular.otf"; sourceTree = "<group>"; };
+		6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-7ExtraBold.otf"; sourceTree = "<group>"; };
+		6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-2ExtraLight.otf"; sourceTree = "<group>"; };
+		6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-8Heavy.otf"; sourceTree = "<group>"; };
+		6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-3Light.otf"; sourceTree = "<group>"; };
+		6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "S-CoreDream-9Black.otf"; sourceTree = "<group>"; };
+		6A6E19BE24F82A69007C582D /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		6A6E19C424F8F16E007C582D /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConditionLabel.swift; sourceTree = "<group>"; };
+		6A6E19C824F918C0007C582D /* ConditionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionChecker.swift; sourceTree = "<group>"; };
+		6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextField.swift; sourceTree = "<group>"; };
+		6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A7C2FC6251898200008CE73 /* NicknameConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameConditionLabel.swift; sourceTree = "<group>"; };
+		6A7C2FC92518C5D60008CE73 /* ViewUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUpdating.swift; sourceTree = "<group>"; };
+		6A7C2FCC2518D94B0008CE73 /* TextFieldObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldObserver.swift; sourceTree = "<group>"; };
+		6A7C2FCE2518D9720008CE73 /* LabelObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelObserver.swift; sourceTree = "<group>"; };
+		6A7C2FD02518D9D80008CE73 /* PasswordCheckConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCheckConditionLabel.swift; sourceTree = "<group>"; };
+		6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPlaceholderMessage.swift; sourceTree = "<group>"; };
+		6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6A7E928725022AA4009F184C /* InputUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUserData.swift; sourceTree = "<group>"; };
+		6A7E928925022CEA009F184C /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
+		6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationNameExtension.swift; sourceTree = "<group>"; };
+		6A7E929125024418009F184C /* CGColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtention.swift; sourceTree = "<group>"; };
 		6A83517424DBBF0700DB1615 /* GehaSajang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GehaSajang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83517724DBBF0700DB1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A83517924DBBF0700DB1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A83517B24DBBF0700DB1615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A83517B24DBBF0700DB1615 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A83517E24DBBF0700DB1615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A83518124DBBF0700DB1615 /* GehaSajang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GehaSajang.xcdatamodel; sourceTree = "<group>"; };
 		6A83518324DBBF0800DB1615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +122,12 @@
 		6A83518D24DBBF0800DB1615 /* GehaSajangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GehaSajangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GehaSajangTests.swift; sourceTree = "<group>"; };
 		6A83519324DBBF0800DB1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A83D519250380060069D900 /* UserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoKey.swift; sourceTree = "<group>"; };
+		6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactoryByState.swift; sourceTree = "<group>"; };
+		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
+		6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsDetailViewController.swift; sourceTree = "<group>"; };
+		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +149,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		687E401C65DC13B8CA3C83E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */,
+				4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A2435E32507F7EC003A3269 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19BE24F82A69007C582D /* TermsViewController.swift */,
+				6A675D6225021C49005F2DBA /* SignUpViewController.swift */,
+				6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A2435E42507F7FF003A3269 /* ConditionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */,
+				6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */,
+				6A7C2FD02518D9D80008CE73 /* PasswordCheckConditionLabel.swift */,
+				6A7C2FC6251898200008CE73 /* NicknameConditionLabel.swift */,
+			);
+			path = ConditionLabel;
+			sourceTree = "<group>";
+		};
+		6A2435E52507F81C003A3269 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E19C424F8F16E007C582D /* EmailTextField.swift */,
+				6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */,
+				6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */,
+				6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		6A2435E62507F82F003A3269 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E9285250228B7009F184C /* EmailTextFieldDelegate.swift */,
+				6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */,
+				6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */,
+				6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		6A2435E72507F844003A3269 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E928725022AA4009F184C /* InputUserData.swift */,
+				6A6E19C824F918C0007C582D /* ConditionChecker.swift */,
+				6A7E928925022CEA009F184C /* TextFieldState.swift */,
+				6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */,
+				6A83D519250380060069D900 /* UserInfoKey.swift */,
+				6A7C2FD32518F4320008CE73 /* TextFieldPlaceholderMessage.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		6A68DA4024E975200075CA73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */,
+				6A7E928E25023E35009F184C /* NSNotificationNameExtension.swift */,
+				6A7E929125024418009F184C /* CGColorExtention.swift */,
+				6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */,
+				6A189EAC2514B42A0018C952 /* StringExtension.swift */,
+				6A189EAE2514B43C0018C952 /* OptionalExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A68DA4924E994250075CA73 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DA4B24E994310075CA73 /* S-CoreDream-1Thin.otf */,
+				6A68DA4F24E994310075CA73 /* S-CoreDream-2ExtraLight.otf */,
+				6A68DA5124E994310075CA73 /* S-CoreDream-3Light.otf */,
+				6A68DA4D24E994310075CA73 /* S-CoreDream-4Regular.otf */,
+				6A68DA4A24E994310075CA73 /* S-CoreDream-5Medium.otf */,
+				6A68DA4C24E994310075CA73 /* S-CoreDream-6Bold.otf */,
+				6A68DA4E24E994310075CA73 /* S-CoreDream-7ExtraBold.otf */,
+				6A68DA5024E994310075CA73 /* S-CoreDream-8Heavy.otf */,
+				6A68DA5224E994320075CA73 /* S-CoreDream-9Black.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		6A6E19BD24F82A39007C582D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6A7C2FCB2518D9340008CE73 /* Super Class */,
+				6A7C2FC82518BC380008CE73 /* Protocol */,
+				6A2435E32507F7EC003A3269 /* Controller */,
+				6A2435E72507F844003A3269 /* Manage */,
+				6A2435E42507F7FF003A3269 /* ConditionLabel */,
+				6A2435E52507F81C003A3269 /* TextField */,
+				6A2435E62507F82F003A3269 /* Delegate */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6A7C2FC82518BC380008CE73 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6A7C2FC92518C5D60008CE73 /* ViewUpdating.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6A7C2FCB2518D9340008CE73 /* Super Class */ = {
+			isa = PBXGroup;
+			children = (
+				6A7C2FCC2518D94B0008CE73 /* TextFieldObserver.swift */,
+				6A7C2FCE2518D9720008CE73 /* LabelObserver.swift */,
+			);
+			path = "Super Class";
+			sourceTree = "<group>";
+		};
 		6A83516B24DBBF0700DB1615 = {
 			isa = PBXGroup;
 			children = (
 				6A83517624DBBF0700DB1615 /* GehaSajang */,
+				6AD0CF4E24E942B30061A2B2 /* AppComposition */,
 				6A83519024DBBF0800DB1615 /* GehaSajangTests */,
 				6A83517524DBBF0700DB1615 /* Products */,
+				687E401C65DC13B8CA3C83E7 /* Pods */,
+				A1F3884389E7FF8C9EA53DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +298,11 @@
 		6A83517624DBBF0700DB1615 /* GehaSajang */ = {
 			isa = PBXGroup;
 			children = (
-				6A83517724DBBF0700DB1615 /* AppDelegate.swift */,
-				6A83517924DBBF0700DB1615 /* SceneDelegate.swift */,
-				6A83517B24DBBF0700DB1615 /* ViewController.swift */,
-				6A83517D24DBBF0700DB1615 /* Main.storyboard */,
-				6A83518324DBBF0800DB1615 /* Assets.xcassets */,
-				6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */,
-				6A83518824DBBF0800DB1615 /* Info.plist */,
-				6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */,
+				6AD0CF4A24E9426E0061A2B2 /* Login */,
+				6AB0EC1A250F54B3002F92E4 /* SignIn */,
+				6A6E19BD24F82A39007C582D /* SignUp */,
+				6A68DA4024E975200075CA73 /* Extensions */,
+				6AD0CF5124E943690061A2B2 /* Resource */,
 			);
 			path = GehaSajang;
 			sourceTree = "<group>";
@@ -102,6 +316,62 @@
 			path = GehaSajangTests;
 			sourceTree = "<group>";
 		};
+		6AB0EC1A250F54B3002F92E4 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0EC1B250F556E002F92E4 /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		6AB0EC1B250F556E002F92E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A675D6625021D1B005F2DBA /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AD0CF4A24E9426E0061A2B2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A83517B24DBBF0700DB1615 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6AD0CF4E24E942B30061A2B2 /* AppComposition */ = {
+			isa = PBXGroup;
+			children = (
+				6A83517724DBBF0700DB1615 /* AppDelegate.swift */,
+				6A83517924DBBF0700DB1615 /* SceneDelegate.swift */,
+				6A83517D24DBBF0700DB1615 /* Main.storyboard */,
+				6A83518324DBBF0800DB1615 /* Assets.xcassets */,
+				6A83518524DBBF0800DB1615 /* LaunchScreen.storyboard */,
+				6A83518824DBBF0800DB1615 /* Info.plist */,
+				6A83518024DBBF0700DB1615 /* GehaSajang.xcdatamodeld */,
+			);
+			path = AppComposition;
+			sourceTree = "<group>";
+		};
+		6AD0CF5124E943690061A2B2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6A68DA4924E994250075CA73 /* Font */,
+				6AD0CF5224E943780061A2B2 /* Resource.swift */,
+				6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A1F3884389E7FF8C9EA53DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A83519624DBBF0800DB1615 /* Build configuration list for PBXNativeTarget "GehaSajang" */;
 			buildPhases = (
+				A777B2F535E94CEB6ABCE4F4 /* [CP] Check Pods Manifest.lock */,
 				6A83517024DBBF0700DB1615 /* Sources */,
 				6A83517124DBBF0700DB1615 /* Frameworks */,
 				6A83517224DBBF0700DB1615 /* Resources */,
+				2278CCABF1D6FAF1574DFEBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,8 +455,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A68DA5524E994320075CA73 /* S-CoreDream-6Bold.otf in Resources */,
 				6A83518724DBBF0800DB1615 /* LaunchScreen.storyboard in Resources */,
+				6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */,
+				6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */,
+				6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */,
+				6A68DA5724E994320075CA73 /* S-CoreDream-7ExtraBold.otf in Resources */,
+				6A68DA5924E994320075CA73 /* S-CoreDream-8Heavy.otf in Resources */,
 				6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */,
+				6A68DA5324E994320075CA73 /* S-CoreDream-5Medium.otf in Resources */,
+				6A68DA5824E994320075CA73 /* S-CoreDream-2ExtraLight.otf in Resources */,
+				6A68DA5B24E994320075CA73 /* S-CoreDream-9Black.otf in Resources */,
+				6A68DA4624E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 in Resources */,
 				6A83517F24DBBF0700DB1615 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,15 +480,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2278CCABF1D6FAF1574DFEBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GehaSajang/Pods-GehaSajang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A777B2F535E94CEB6ABCE4F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GehaSajang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A83517024DBBF0700DB1615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */,
+				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
+				6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */,
+				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
+				6A7C2FCA2518C5D60008CE73 /* ViewUpdating.swift in Sources */,
+				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
+				6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */,
+				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
+				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
+				6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */,
+				6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */,
+				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
+				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
+				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
+				6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */,
+				6A7C2FD42518F4320008CE73 /* TextFieldPlaceholderMessage.swift in Sources */,
+				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
+				6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
-				6A83517C24DBBF0700DB1615 /* ViewController.swift in Sources */,
+				6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */,
+				6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */,
 				6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */,
+				6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */,
+				6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */,
+				6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */,
+				6A7C2FD12518D9D80008CE73 /* PasswordCheckConditionLabel.swift in Sources */,
+				6A7C2FCF2518D9720008CE73 /* LabelObserver.swift in Sources */,
+				6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */,
+				6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */,
+				6A7C2FCD2518D94B0008CE73 /* TextFieldObserver.swift in Sources */,
+				6A7E928825022AA4009F184C /* InputUserData.swift in Sources */,
+				6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */,
 				6A83517A24DBBF0700DB1615 /* SceneDelegate.swift in Sources */,
+				6A7C2FC7251898200008CE73 /* NicknameConditionLabel.swift in Sources */,
+				6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */,
+				6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +660,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -364,11 +721,12 @@
 		};
 		6A83519724DBBF0800DB1615 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93A6S4WHC4;
-				INFOPLIST_FILE = GehaSajang/Info.plist;
+				INFOPLIST_FILE = AppComposition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,11 +740,12 @@
 		};
 		6A83519824DBBF0800DB1615 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93A6S4WHC4;
-				INFOPLIST_FILE = GehaSajang/Info.plist;
+				INFOPLIST_FILE = AppComposition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

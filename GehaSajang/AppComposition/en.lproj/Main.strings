@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "지금 바로 시작하기"; ObjectID = "Ihh-2t-OAI"; */
+"Ihh-2t-OAI.normalTitle" = "지금 바로 시작하기";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jvy-yx-bMz"; */
+"Jvy-yx-bMz.text" = "Label";
+
+/* Class = "UILabel"; text = "게스트 하우스 맞춤형 예약 관리 시스템으로"; ObjectID = "Wa1-bW-Fmu"; */
+"Wa1-bW-Fmu.text" = "게스트 하우스 맞춤형 예약 관리 시스템으로";
+
+/* Class = "UILabel"; text = "게스트의 예약을 보다 손쉽게 관리하세요"; ObjectID = "oiG-Xd-1Vj"; */
+"oiG-Xd-1Vj.text" = "게스트의 예약을 보다 손쉽게 관리하세요";
