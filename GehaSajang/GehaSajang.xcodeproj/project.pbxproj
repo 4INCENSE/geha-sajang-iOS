@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A010BCE251A220000884016 /* EmailVertificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A010BCD251A220000884016 /* EmailVertificationViewController.swift */; };
 		6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAC2514B42A0018C952 /* StringExtension.swift */; };
 		6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A189EAE2514B43C0018C952 /* OptionalExtension.swift */; };
 		6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */; };
 		6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */; };
 		6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */; };
+		6A24F4ED25262D2F007FD803 /* TableViewIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24F4EC25262D2F007FD803 /* TableViewIndexPath.swift */; };
 		6A675D6325021C49005F2DBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6225021C49005F2DBA /* SignUpViewController.swift */; };
 		6A675D6725021D1B005F2DBA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A675D6625021D1B005F2DBA /* SignInViewController.swift */; };
 		6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */; };
@@ -29,6 +31,9 @@
 		6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C424F8F16E007C582D /* EmailTextField.swift */; };
 		6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */; };
 		6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E19C824F918C0007C582D /* ConditionChecker.swift */; };
+		6A6EB39F25260AE000910383 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB39E25260AE000910383 /* UIViewControllerExtension.swift */; };
+		6A6EB3AE25261B0C00910383 /* CalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB3AD25261B0C00910383 /* CalendarDataSource.swift */; };
+		6A6EB3B3252627BF00910383 /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB3B2252627BF00910383 /* NotificationCenterExtension.swift */; };
 		6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */; };
 		6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */; };
 		6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */; };
@@ -53,10 +58,21 @@
 		6A83519224DBBF0800DB1615 /* GehaSajangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83519124DBBF0800DB1615 /* GehaSajangTests.swift */; };
 		6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D519250380060069D900 /* UserInfoKey.swift */; };
 		6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */; };
+		6AAA552825220A4500F04C0B /* DIYCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAA552725220A4500F04C0B /* DIYCalendarCell.swift */; };
 		6AB182CE250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */; };
 		6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */; };
 		6AD051812510F8D400E08BC2 /* TermsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */; };
 		6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0CF5224E943780061A2B2 /* Resource.swift */; };
+		6AD380232523514600A210C8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD380222523514600A210C8 /* CalendarViewController.swift */; };
+		6AD3802B2523714100A210C8 /* CalendarGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3802A2523714100A210C8 /* CalendarGestureRecognizerDelegate.swift */; };
+		6AD3802F2523718700A210C8 /* CalendarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3802E2523718700A210C8 /* CalendarDelegate.swift */; };
+		6AD380332523722A00A210C8 /* DailyTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD380322523722A00A210C8 /* DailyTableViewDataSource.swift */; };
+		6AD380372523726600A210C8 /* DailyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD380362523726600A210C8 /* DailyTableViewDelegate.swift */; };
+		6AFEDB9E25246D5D003A6D39 /* TransitionButtonsRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEDB9D25246D5D003A6D39 /* TransitionButtonsRowTableViewCell.swift */; };
+		6AFEDBA52524772C003A6D39 /* RoomBookingStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEDBA32524772C003A6D39 /* RoomBookingStatusViewController.swift */; };
+		6AFEDBA62524772C003A6D39 /* RoomBookingStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEDBA42524772C003A6D39 /* RoomBookingStatusViewController.xib */; };
+		6AFEDBAB252477F9003A6D39 /* ServiceUsingStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEDBA9252477F9003A6D39 /* ServiceUsingStatusViewController.swift */; };
+		6AFEDBAC252477F9003A6D39 /* ServiceUsingStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEDBAA252477F9003A6D39 /* ServiceUsingStatusViewController.xib */; };
 		A2405D36D0058A5000ED1E46 /* Pods_GehaSajang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,11 +90,13 @@
 		1FCBEB0737744C201E625972 /* Pods_GehaSajang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GehaSajang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		271B9EFF7F5FE5CCC64C3926 /* Pods-GehaSajang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.debug.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GehaSajang.release.xcconfig"; path = "Target Support Files/Pods-GehaSajang/Pods-GehaSajang.release.xcconfig"; sourceTree = "<group>"; };
+		6A010BCD251A220000884016 /* EmailVertificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVertificationViewController.swift; sourceTree = "<group>"; };
 		6A189EAC2514B42A0018C952 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		6A189EAE2514B43C0018C952 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
 		6A2435E12507F7E3003A3269 /* PasswordConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConditionLabel.swift; sourceTree = "<group>"; };
 		6A2435F02508D43A003A3269 /* SignUpPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordTextField.swift; sourceTree = "<group>"; };
 		6A2435F22508D450003A3269 /* CheckPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextField.swift; sourceTree = "<group>"; };
+		6A24F4EC25262D2F007FD803 /* TableViewIndexPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIndexPath.swift; sourceTree = "<group>"; };
 		6A675D6225021C49005F2DBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6A675D6625021D1B005F2DBA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		6A68DA4124E9753F0075CA73 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -96,6 +114,9 @@
 		6A6E19C424F8F16E007C582D /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		6A6E19C624F8F17E007C582D /* EmailConditionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConditionLabel.swift; sourceTree = "<group>"; };
 		6A6E19C824F918C0007C582D /* ConditionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionChecker.swift; sourceTree = "<group>"; };
+		6A6EB39E25260AE000910383 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6A6EB3AD25261B0C00910383 /* CalendarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDataSource.swift; sourceTree = "<group>"; };
+		6A6EB3B2252627BF00910383 /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
 		6A79D6C0250B836A00F31BD7 /* NicknameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextField.swift; sourceTree = "<group>"; };
 		6A79D6C2250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6A79D6C4250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextFieldDelegate.swift; sourceTree = "<group>"; };
@@ -124,10 +145,21 @@
 		6A83519324DBBF0800DB1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A83D519250380060069D900 /* UserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoKey.swift; sourceTree = "<group>"; };
 		6A83D51B250381840069D900 /* TextFieldFactoryByState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactoryByState.swift; sourceTree = "<group>"; };
+		6AAA552725220A4500F04C0B /* DIYCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYCalendarCell.swift; sourceTree = "<group>"; };
 		6AB182CD250A4B0C001DDA61 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		6AD051802510F8D400E08BC2 /* TermsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsDetailViewController.swift; sourceTree = "<group>"; };
 		6AD0CF5224E943780061A2B2 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		6AD380222523514600A210C8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		6AD3802A2523714100A210C8 /* CalendarGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGestureRecognizerDelegate.swift; sourceTree = "<group>"; };
+		6AD3802E2523718700A210C8 /* CalendarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDelegate.swift; sourceTree = "<group>"; };
+		6AD380322523722A00A210C8 /* DailyTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewDataSource.swift; sourceTree = "<group>"; };
+		6AD380362523726600A210C8 /* DailyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewDelegate.swift; sourceTree = "<group>"; };
+		6AFEDB9D25246D5D003A6D39 /* TransitionButtonsRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionButtonsRowTableViewCell.swift; sourceTree = "<group>"; };
+		6AFEDBA32524772C003A6D39 /* RoomBookingStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBookingStatusViewController.swift; sourceTree = "<group>"; };
+		6AFEDBA42524772C003A6D39 /* RoomBookingStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomBookingStatusViewController.xib; sourceTree = "<group>"; };
+		6AFEDBA9252477F9003A6D39 /* ServiceUsingStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUsingStatusViewController.swift; sourceTree = "<group>"; };
+		6AFEDBAA252477F9003A6D39 /* ServiceUsingStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceUsingStatusViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +188,14 @@
 				4BDEF0D2A2150747D92D88AC /* Pods-GehaSajang.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A010BCC251A21D100884016 /* Email Verification */ = {
+			isa = PBXGroup;
+			children = (
+				6A010BCD251A220000884016 /* EmailVertificationViewController.swift */,
+			);
+			path = "Email Verification";
 			sourceTree = "<group>";
 		};
 		6A2435E32507F7EC003A3269 /* Controller */ = {
@@ -223,6 +263,8 @@
 				6AD0517E2510F57500E08BC2 /* UIStoryboardExtension.swift */,
 				6A189EAC2514B42A0018C952 /* StringExtension.swift */,
 				6A189EAE2514B43C0018C952 /* OptionalExtension.swift */,
+				6A6EB39E25260AE000910383 /* UIViewControllerExtension.swift */,
+				6A6EB3B2252627BF00910383 /* NotificationCenterExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -255,6 +297,21 @@
 				6A2435E62507F82F003A3269 /* Delegate */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6A6EB39D25260A9600910383 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AD380222523514600A210C8 /* CalendarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A6EB3B12526279000910383 /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utillity;
 			sourceTree = "<group>";
 		};
 		6A7C2FC82518BC380008CE73 /* Protocol */ = {
@@ -298,9 +355,13 @@
 		6A83517624DBBF0700DB1615 /* GehaSajang */ = {
 			isa = PBXGroup;
 			children = (
+				6AFEDBA1252475C3003A6D39 /* Booking */,
+				6AEE17E32521AFCA001BA9D5 /* Calendar */,
+				6A010BCC251A21D100884016 /* Email Verification */,
 				6AD0CF4A24E9426E0061A2B2 /* Login */,
 				6AB0EC1A250F54B3002F92E4 /* SignIn */,
 				6A6E19BD24F82A39007C582D /* SignUp */,
+				6A6EB3B12526279000910383 /* Utillity */,
 				6A68DA4024E975200075CA73 /* Extensions */,
 				6AD0CF5124E943690061A2B2 /* Resource */,
 			);
@@ -362,6 +423,65 @@
 				6A68DA4524E97A270075CA73 /* GehaSaJangLoginBackgroundVideo.mp4 */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		6AD38026252370C900A210C8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6AD3802A2523714100A210C8 /* CalendarGestureRecognizerDelegate.swift */,
+				6AD3802E2523718700A210C8 /* CalendarDelegate.swift */,
+				6AD380362523726600A210C8 /* DailyTableViewDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		6AD38027252370CF00A210C8 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				6AD380322523722A00A210C8 /* DailyTableViewDataSource.swift */,
+				6A6EB3AD25261B0C00910383 /* CalendarDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		6AEE17E32521AFCA001BA9D5 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6A6EB39D25260A9600910383 /* Controller */,
+				6AFEDB9C25246D12003A6D39 /* TableView */,
+				6AD38027252370CF00A210C8 /* DataSource */,
+				6AD38026252370C900A210C8 /* Delegate */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		6AFEDB9C25246D12003A6D39 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6AFEDB9D25246D5D003A6D39 /* TransitionButtonsRowTableViewCell.swift */,
+				6A24F4EC25262D2F007FD803 /* TableViewIndexPath.swift */,
+				6AAA552725220A4500F04C0B /* DIYCalendarCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		6AFEDBA1252475C3003A6D39 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				6AFEDBA22524770E003A6D39 /* RoomBookingList */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		6AFEDBA22524770E003A6D39 /* RoomBookingList */ = {
+			isa = PBXGroup;
+			children = (
+				6AFEDBA32524772C003A6D39 /* RoomBookingStatusViewController.swift */,
+				6AFEDBA42524772C003A6D39 /* RoomBookingStatusViewController.xib */,
+				6AFEDBA9252477F9003A6D39 /* ServiceUsingStatusViewController.swift */,
+				6AFEDBAA252477F9003A6D39 /* ServiceUsingStatusViewController.xib */,
+			);
+			path = RoomBookingList;
 			sourceTree = "<group>";
 		};
 		A1F3884389E7FF8C9EA53DFE /* Frameworks */ = {
@@ -460,6 +580,8 @@
 				6A68DA5424E994320075CA73 /* S-CoreDream-1Thin.otf in Resources */,
 				6A68DA5624E994320075CA73 /* S-CoreDream-4Regular.otf in Resources */,
 				6A68DA5A24E994320075CA73 /* S-CoreDream-3Light.otf in Resources */,
+				6AFEDBAC252477F9003A6D39 /* ServiceUsingStatusViewController.xib in Resources */,
+				6AFEDBA62524772C003A6D39 /* RoomBookingStatusViewController.xib in Resources */,
 				6A68DA5724E994320075CA73 /* S-CoreDream-7ExtraBold.otf in Resources */,
 				6A68DA5924E994320075CA73 /* S-CoreDream-8Heavy.otf in Resources */,
 				6A83518424DBBF0800DB1615 /* Assets.xcassets in Resources */,
@@ -531,28 +653,42 @@
 				6A6E19C924F918C0007C582D /* ConditionChecker.swift in Sources */,
 				6A189EAD2514B42A0018C952 /* StringExtension.swift in Sources */,
 				6A7E928F25023E35009F184C /* NSNotificationNameExtension.swift in Sources */,
+				6AAA552825220A4500F04C0B /* DIYCalendarCell.swift in Sources */,
 				6A7C2FCA2518C5D60008CE73 /* ViewUpdating.swift in Sources */,
+				6AD3802B2523714100A210C8 /* CalendarGestureRecognizerDelegate.swift in Sources */,
 				6A7E928A25022CEA009F184C /* TextFieldState.swift in Sources */,
+				6A6EB3AE25261B0C00910383 /* CalendarDataSource.swift in Sources */,
 				6AD0517F2510F57500E08BC2 /* UIStoryboardExtension.swift in Sources */,
 				6A83D51A250380060069D900 /* UserInfoKey.swift in Sources */,
 				6A2435F32508D450003A3269 /* CheckPasswordTextField.swift in Sources */,
 				6A79D6C3250B87DB00F31BD7 /* CheckPasswordTextFieldDelegate.swift in Sources */,
+				6AD380332523722A00A210C8 /* DailyTableViewDataSource.swift in Sources */,
 				6A2435E22507F7E3003A3269 /* PasswordConditionLabel.swift in Sources */,
 				6A68DA4224E9753F0075CA73 /* UIViewExtension.swift in Sources */,
 				6A7E929225024418009F184C /* CGColorExtention.swift in Sources */,
+				6AD380372523726600A210C8 /* DailyTableViewDelegate.swift in Sources */,
 				6A6E19C724F8F17E007C582D /* EmailConditionLabel.swift in Sources */,
+				6A24F4ED25262D2F007FD803 /* TableViewIndexPath.swift in Sources */,
 				6A189EAF2514B43C0018C952 /* OptionalExtension.swift in Sources */,
+				6AFEDBAB252477F9003A6D39 /* ServiceUsingStatusViewController.swift in Sources */,
+				6AFEDB9E25246D5D003A6D39 /* TransitionButtonsRowTableViewCell.swift in Sources */,
 				6A7C2FD42518F4320008CE73 /* TextFieldPlaceholderMessage.swift in Sources */,
 				6A83D51C250381840069D900 /* TextFieldFactoryByState.swift in Sources */,
 				6A7E9286250228B7009F184C /* EmailTextFieldDelegate.swift in Sources */,
 				6A83518224DBBF0700DB1615 /* GehaSajang.xcdatamodeld in Sources */,
 				6A83517C24DBBF0700DB1615 /* LoginViewController.swift in Sources */,
+				6AD380232523514600A210C8 /* CalendarViewController.swift in Sources */,
+				6A6EB3B3252627BF00910383 /* NotificationCenterExtension.swift in Sources */,
 				6A79D6C1250B836A00F31BD7 /* NicknameTextField.swift in Sources */,
+				6AD3802F2523718700A210C8 /* CalendarDelegate.swift in Sources */,
 				6A83517824DBBF0700DB1615 /* AppDelegate.swift in Sources */,
 				6AD0CF5324E943780061A2B2 /* Resource.swift in Sources */,
+				6AFEDBA52524772C003A6D39 /* RoomBookingStatusViewController.swift in Sources */,
 				6A79D6C5250B89AC00F31BD7 /* NicknameTextFieldDelegate.swift in Sources */,
+				6A6EB39F25260AE000910383 /* UIViewControllerExtension.swift in Sources */,
 				6A6E19C524F8F16E007C582D /* EmailTextField.swift in Sources */,
 				6A7C2FD12518D9D80008CE73 /* PasswordCheckConditionLabel.swift in Sources */,
+				6A010BCE251A220000884016 /* EmailVertificationViewController.swift in Sources */,
 				6A7C2FCF2518D9720008CE73 /* LabelObserver.swift in Sources */,
 				6A2435F12508D43A003A3269 /* SignUpPasswordTextField.swift in Sources */,
 				6A6E19BF24F82A69007C582D /* TermsViewController.swift in Sources */,

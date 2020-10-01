@@ -13,4 +13,5 @@ extension NSNotification.Name {
     static let PasswordTextFieldInput = Notification.Name("PasswordTextFieldInput")
     static let PasswordCheckTextFieldInput = Notification.Name("PasswordCheckTextFieldInput")
     static let NicknameTextFieldInput = Notification.Name("NicknameTextFieldInput")
+    static let CalendarButtonTapped = Notification.Name("CalendarButtonTapped")
 }

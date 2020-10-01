@@ -10,4 +10,5 @@ import Foundation
 
 enum UserInfoKey {
     static let TextFieldState = "TextFieldState"
+    static let ViewController = "ViewController"
 }
