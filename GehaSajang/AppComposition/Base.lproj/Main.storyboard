@@ -1301,7 +1301,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emd-Pf-wKk">
-                                                    <rect key="frame" x="184" y="6.5" width="46" height="30"/>
+                                                    <rect key="frame" x="187.5" y="7" width="39" height="30"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <state key="normal" title="더보기">
                                                         <color key="titleColor" red="0.033259246499999999" green="0.1213270798" blue="0.39599561690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1309,10 +1309,8 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="emd-Pf-wKk" secondAttribute="trailing" constant="184" id="3JR-J5-ly4"/>
-                                                <constraint firstItem="emd-Pf-wKk" firstAttribute="leading" secondItem="9Z0-pz-7Ap" secondAttribute="leading" constant="184" id="Rsm-LF-TP2"/>
-                                                <constraint firstAttribute="bottom" secondItem="emd-Pf-wKk" secondAttribute="bottom" constant="7.5" id="a56-te-qwf"/>
-                                                <constraint firstItem="emd-Pf-wKk" firstAttribute="top" secondItem="9Z0-pz-7Ap" secondAttribute="top" constant="6.5" id="fhF-sG-VKx"/>
+                                                <constraint firstItem="emd-Pf-wKk" firstAttribute="centerX" secondItem="9Z0-pz-7Ap" secondAttribute="centerX" id="FKp-JT-J9f"/>
+                                                <constraint firstItem="emd-Pf-wKk" firstAttribute="centerY" secondItem="9Z0-pz-7Ap" secondAttribute="centerY" id="Wny-Kc-jJW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

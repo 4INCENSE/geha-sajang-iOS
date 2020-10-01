@@ -9,8 +9,8 @@ import Foundation
 
 enum TableViewIndexPath {
     static let numberOfSections = 2
-    static let lastRow = 11
-    static let numberOfRowsInEachSection = [1, lastRow]
+    static let lastRow = 10
+    static let numberOfRowsInEachSection = [1, 11]
     static let firstSection = 0
     static let secondSection = 1
 }

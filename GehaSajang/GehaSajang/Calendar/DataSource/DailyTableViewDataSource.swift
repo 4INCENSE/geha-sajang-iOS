@@ -28,7 +28,7 @@ class DailyTableViewDataSource: NSObject, UITableViewDataSource {
         if indexPath.section == TableViewIndexPath.firstSection {
             let cell = tableView.dequeueReusableCell(withIdentifier: CalendarCellName.BookingStatusButtonsCell)!
             return cell
-        } else if indexPath.section == TableViewIndexPath.secondSection && indexPath.row == TableViewIndexPath.lastRow {
+        } else if indexPath == IndexPath(row: TableViewIndexPath.lastRow, section: TableViewIndexPath.secondSection) {
             let cell = tableView.dequeueReusableCell(withIdentifier: CalendarCellName.LastCell)!
             return cell
         } else {

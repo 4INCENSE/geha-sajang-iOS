@@ -11,11 +11,7 @@ import FSCalendar
 
 extension CalendarViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        if indexPath.section == 0 {
-            let scope: FSCalendarScope = (indexPath.row == 0) ? .month : .week
-            self.calendar.setScope(scope, animated: true)
-        }
+        //TODO: 선택한 예약의 상세 페이지로 이동
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
